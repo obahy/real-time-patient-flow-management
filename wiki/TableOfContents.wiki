@@ -13,3 +13,7 @@
   * [Publications Publications]
   * [Presentations Presentations]
   * [Demos Demos]
+  * [DevelopersPages Developer Pages]
+    * [ServersList Servers List]
+    * [UsernamesAndPasses Usernames and passwords]
+    * [RepositoryStructure Repository Structure]
