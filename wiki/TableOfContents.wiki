@@ -15,7 +15,6 @@
   * [Demos Demos]
   * [DevelopersPages Developer Pages]
     * [ServersList Servers List]
-    * [UsernamesAndPasses Usernames and passwords]
     * [RepositoryStructure Repository Structure]
   * [PFM_Course PFM Course]
     * [Part_I Part I: BPM]
