@@ -10,3 +10,6 @@
     * [HowToGrails BPM-DB Integration]
     * [HowToFM Creating FM Model]
     * [HowToCognos Real time reporting using Cognos]
+  * [Publications Publications]
+  * [Presentations Presentations]
+  * [Demos Demos]
