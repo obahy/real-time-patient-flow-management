@@ -1,6 +1,6 @@
 #sidebar TableOfContents
 
-  * [Articles HOWTO articles]
+  * [Overview Overview]
     * [ArticlesXSS Web security]
     * [ArticlesDom DOM manipulation]
     * [ArticlesStyle CSS and style]
