@@ -1,13 +1,14 @@
-#summary One-sentence summary of this page.
+#Modeling Clinical Pathway as a Business Process using IBM Lambardi BPM
 
 = Introduction =
 
-Add your content here.
+Learn how to install IBM Lambardi BPM tool, its configurations, and how to model a hospital clinical pathway as a Business Process Model.
 
 
-= Details =
+= Install IBM Lambardi BPM =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Where to get the tool, how to install, and configure.
+
+= Model a clinical pathway as a Business Process Model
+
+Detailed examples of what goes into the BPM, the messages, accessing WSDLS, data items, etc.
