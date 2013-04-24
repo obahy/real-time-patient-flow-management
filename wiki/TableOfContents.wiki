@@ -19,7 +19,7 @@
     * [RepositoryStructure Repository Structure]
   * [PFM_Course PFM Course]
     * [Part_I Part I: Business Process Management]
-      * [Clinical_Pathways Modeling Clinical pathways as Business Processes]
+      * [Clinical_Pathways Modeling Clinical pathways as BPM]
       * [LocationDevices Location Awareness]
       * [Messaging Messaging]
     * [Part_II Part II]
