@@ -1,13 +1,17 @@
-#summary One-sentence summary of this page.
+# Using Framework Manager to build Data Model
 
 = Introduction =
 
-Add your content here.
+Learn about using IBM Framework Manager to build the data model.
 
+= Where to Access FM =
 
-= Details =
+Server IP, etc.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= The Data Model =
+
+The FM models. Insert images and explanation. What calculated fields are done and the rationale of the structure.
+
+= FM and Cognos integration =
+
+Show how the FM model is published to Cognos.
