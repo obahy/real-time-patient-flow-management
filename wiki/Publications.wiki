@@ -1,13 +1,14 @@
-#summary One-sentence summary of this page.
+#List of peer-reviewed papers and theses describing PFM. 
 
-= Introduction =
+= Refereed Papers =
 
-Add your content here.
+Papers and abstracts here.
 
 
-= Details =
+= PhD and Master Theses =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+List Theses of PhD and masters' students.
+
+= Posters =
+
+List posters
