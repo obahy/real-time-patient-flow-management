@@ -1,13 +1,13 @@
-#summary One-sentence summary of this page.
+#Curse outline
 
 = Introduction =
 
-Add your content here.
+1. Business Process Modeling Concepts
 
+2. Simple implement
+Lambardi, Install, configure, Model, roles, couches, forms.
 
-= Details =
+3. ACS Clinical pathway.
+The Demo (BPM Only)
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+4. 
