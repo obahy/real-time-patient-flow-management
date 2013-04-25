@@ -1,12 +1,5 @@
-#summary One-sentence summary of this page.
+#Integration with systems and humans
 
-= Introduction =
+= Exercise 2.2 Integrate with an external system using WSDL =
 
-testing testing
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+The exercise covers the steps to invoke the service, discover its operations and data types, and link local operations and data types with the WSDL operation and data types.
