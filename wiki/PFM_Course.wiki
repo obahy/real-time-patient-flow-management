@@ -10,4 +10,17 @@ Lambardi, Install, configure, Model, roles, couches, forms.
 3. ACS Clinical pathway.
 The Demo (BPM Only)
 
-4. 
+4. Run the BPM (simple couches) Laptop interfaces
+
+5. Ipad interfaces
+
+6. simulate services, read, write, tests, room booking.
+
+--- end of lambardi ----
+
+1. RTLS plus SME
+Akahau dashboards and simple cognos dashboard.
+
+2. Ekahau plus our custom Java event publisher.
+
+3. 
