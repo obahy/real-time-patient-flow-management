@@ -1,13 +1,10 @@
-#summary One-sentence summary of this page.
+#Database design and implementation
 
 = Introduction =
 
-Add your content here.
+You will learn about designing the data base to store information about patients, rooms, nurses, etc to support the creation of real time dashboards.
 
 
-= Details =
+= Exercise 4.1 =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Create an SQL DB as shown in the figure below.
