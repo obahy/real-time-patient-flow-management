@@ -1,13 +1,26 @@
-#summary One-sentence summary of this page.
+#Create data models using Framework Manager.
 
 = Introduction =
 
-Add your content here.
+Introduce Framework Manager.
 
 
-= Details =
+= Exercise 4.X Create a framework Manager package =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Open FM, create workspace, create package, publish package.
+
+= Exercise 4.X Create FM Source Package =
+
+What is FM package, steps to create, create data source, etc.
+
+= Exercise 4.X Create FM model Package =
+
+Concept of layers in FM, source and model layers are enough.
+
+= Exercise 4.X Create calculated fields =
+
+Create calculated fields in FM, and how they are useful. The difference between creating these in FM and on the report side (Cognos).
+
+= Exercise 4.X Publish FM model package =
+
+Steps to publish the FM model package.
