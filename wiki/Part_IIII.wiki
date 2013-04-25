@@ -1,13 +1,5 @@
-#summary One-sentence summary of this page.
+#Data warehousing and reporting
 
 = Introduction =
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+This parts covers the technologies and methodologies to support the creation of real time dashboards and reports using IBM Cognos.
