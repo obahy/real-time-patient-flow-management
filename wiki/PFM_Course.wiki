@@ -29,4 +29,8 @@ Akahau dashboards and simple cognos dashboard.
 
 4. complete the BPM process modeling and show where it waits for events.
 
------ Cognos DB to Portal and reports
+----- Cognos DB to Portal and reports ----
+
+1. Frame work manager.
+2. Publish Packages.
+3. Create dashboards.
