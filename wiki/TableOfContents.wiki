@@ -7,7 +7,6 @@
     * [Part_II Part II: Clinical Pathways as a Business Process]
       * [Clinical_Pathways Modeling ACS Clinical Pathway]
       * [SOA Service Oriented Architecture]
-      * [InteractingWithBPM Interfacing with the BPM]
       * [LocationDevices Location Awareness]
     * [Part_III Part III: Events Driven Architecture]
       * [RTLS RTLS]
