@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Add your content here.
+In these exercises, we will build a simple Business Process on Lambardi.
 
 
 = Details =
