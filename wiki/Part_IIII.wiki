@@ -1,5 +1,0 @@
-#Data warehousing and reporting
-
-= Introduction =
-
-This parts covers the technologies and methodologies to support the creation of real time dashboards and reports using IBM Cognos.
