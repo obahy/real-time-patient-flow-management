@@ -15,5 +15,6 @@
       * [Messaging Messaging]
       * [StateMonitoring State Monitoring]
     * [Part_IIII Part IIII: Data warehousing and Reporting]
+      * [DB SQL DB]
       * [DataModeling Data Modeling using Framework Manager]
       * [Dashboards Creating real time dashboards using Cognos]
