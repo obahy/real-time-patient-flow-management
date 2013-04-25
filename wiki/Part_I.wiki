@@ -13,8 +13,3 @@ A business process is a collection of activities designed to produce a specific 
 Business Process Modeling Notation (BPMN) is a diagramming standard for drawing business processes. It’s a format that is understandable to business users because it looks like a flowchart –- you don’t need a lot of training to understand how to use it. And it’s also understandable to anybody in IT who might be involved in the process. The objective of BPMN is to support business process management (BPM) by both technical users and business users by providing a notation that is intuitive to business users but still able to represent complex process semantics.
 
 Lambardi BPM tool is a client-server architecture. You can use the client to access the shared model. This architecture allows multiple clients to access the BPM shared model simultaneously.
-
-= Exercise 1.1 =
-1. Download the IBM Lambardi Client.
-2. Access the Shared model on the university server.
-3. Familiarize yourself with the Lambardi interface.
