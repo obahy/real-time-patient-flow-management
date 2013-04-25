@@ -17,3 +17,4 @@ Lambardi BPM tool is a client-server architecture. You can use the client to acc
 = Exercise 1.1 =
 1. Download the IBM Lambardi Client.
 2. Access the Shared model on the university server.
+3. Familiarize yourself with the Lambardi interface.
