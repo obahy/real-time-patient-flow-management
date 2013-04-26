@@ -10,7 +10,7 @@
       * [LocationDevices Location Awareness]
     * [Part_III Part III: Events Driven Architecture]
       * [RTLS RTLS]
-      * [SME SME]
+      * [WBE WebSPhere Business Events]
       * [Ekahau Ekahau]
       * [Messaging Messaging]
       * [StateMonitoring State Monitoring]
