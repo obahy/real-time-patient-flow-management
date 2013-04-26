@@ -1,9 +1,25 @@
-#summary One-sentence summary of this page.
+#Everything about Ekahau
 
 = Introduction =
 
-Add your content here.
+Start Ekahau Activator T301.
 
+You need to be connected to roboLab wifi or uOttawa wifi with VPN connection.
+
+From a web browser, open: http://137.122.88.139:8550/epe/admin
+This is the IP for a VMWare on the university server.
+
+Click on Tags.
+
+= Exercise X.X Reset the Ekahau Tags =
+Get the tags
+Get a small pin to insert into the tags to reset them.
+do not change scan sittings.
+
+WLAN Sittings 
+Make sure the tags are connected to the Robolab wifi.
+
+The key is *w1r3l3ss!*
 
 = Details =
 
