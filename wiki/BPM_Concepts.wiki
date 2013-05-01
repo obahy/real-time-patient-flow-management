@@ -21,7 +21,7 @@ External activities enable you to create BPDs that include activities that are h
 An Undercover Agent (UCA) is started by an event that can either be triggered by a message or on a specific schedule. When a UCA is started, it invokes a Lombardi service in response to the event. When you include a message event in a BPD, you must attach a UCA to the event to call the specified service. For example, when a message event is received from an external system, a UCA is needed to invoke the appropriate service in response to the message.
 You can create and publish a web service to enable external applications to initiate a particular Lombardi service or set of services. Using the SOAP integration, external applications can also call the web service.
 
-= Exercise 1.4 Build a Rule Service
+= Exercise 1.4 Build a Rule Service =
 
 You can use a Rule service, shown in Figure 7, when you want a condition to determine what implementation is invoked. For example, when a certain condition evaluates to true, Lombardi implements a JavaScript expression that you provide. Rule services cannot include Java or web service integrations directly. You can call a Rule service from any other type of service and a Rule service can call other nested services.
 Key performance indicators (KPIs) are measurements that Lombardi tracks at process runtime, storing results that you can use to analyze process and task performance in the Optimizer.
