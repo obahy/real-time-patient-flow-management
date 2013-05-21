@@ -18,7 +18,7 @@
       * [IntermediateObjects Intermediate Objects]
       * [Connections Connections]
       * [BusinessLogic Business logic]
-      * [RealTimeRun Real time running]
+      * [RealTimeRun Real time Run]
       * [Testing Testing]
     * [Part_V Session V: FM]
     * [Part_VI Session VI: Cognos]
