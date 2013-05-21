@@ -1,7 +1,7 @@
 #sidebar TableOfContents
 
   * [PFM_Course PFM Course]
-    * [Part_I Part I: Introduction to BPM]
+    * [Part_I Session I: Introduction to BPM]
       * [Scenario Scenario Specification]
       * [BPM_Concepts Introduction to BPM Concepts]
       * [Intro_to_Lambardi Implement a Simple Process on Lambardi]
