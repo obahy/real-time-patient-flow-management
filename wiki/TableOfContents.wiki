@@ -14,7 +14,7 @@
       * 
     * [Part_IV Session IV: CEP]
       * [IntroCEP Introduction to CEP]
-      * [EventsActions Define Events and Actions]
+      * [EventsActions Events and Actions]
       * [IntermediateObjects Intermediate Objects]
       * [Connections Connections]
       * [BusinessLogic Business logic]
