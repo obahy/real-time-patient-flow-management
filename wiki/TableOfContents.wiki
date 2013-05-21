@@ -7,7 +7,7 @@
     * [Part_II Session II: Clinical Pathways as a Business Process]
       * [BusinessFlow Define Business Flow]
       * [Authentication Authentication]
-      * [BusinessObjects Business Objects-Object's Fields]
+      * [BusinessObjects Business Objects - Object's Fields]
       * [Couches Couches]
     * [Part_III Session III: BPM and Ekahau]
       * 
