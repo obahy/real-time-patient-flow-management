@@ -2,8 +2,8 @@
 
   * [PFM_Course PFM Course]
     * [Part_I Session I: Introduction to BPM]
-      * [Introduction to PFM]
-      * [Introduction to BPM]
+      * [Intro Introduction to PFM]
+      * [Intro Introduction to BPM]
     * [Part_II Session II: Clinical Pathways as a Business Process]
       * [Define Business Flow]
       * [Couches]
