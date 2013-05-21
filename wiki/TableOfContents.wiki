@@ -8,7 +8,7 @@
       * [BusinessFlow Define Business Flow]
       * [Authentication Authentication]
       * [BusinessObjects Business Objects - Object's Fields]
-      * [Couches Couches]
+      * [Couches Couches (Business Process Interface)]
       * [BPTesting Testing]
     * [Part_III Session III: BPM and Ekahau]
       * 
