@@ -11,7 +11,7 @@
     * [Part_III Session III: BPM and Ekahau]
       * 
     * [Part_IV Session IV: CEP]
-      * [Intro Introducation to CEP]
+      * [Intro Introduction to CEP]
       * [Definition Define Events and Actions]
       * [Definition Intermediate Objects]
       * [Definition Connections]
@@ -20,4 +20,4 @@
       * [Definition Testing]
     * [Part_V Session V: FM]
     * [Part_VI Session VI: Cognos]
-    * [Part_V Session VII: DEMO]
+    * [Part_VII Session VII: DEMO]
