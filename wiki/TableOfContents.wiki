@@ -6,9 +6,9 @@
       * [IntroBPM Introduction to BPM]
     * [Part_II Session II: Clinical Pathways as a Business Process]
       * [BusinessFlow Define Business Flow]
-      * [BusinessObjects Business Objects]
+      * [Authentication Authentication]
+      * [BusinessObjects Business Objects-Object's Fields]
       * [Couches Couches]
-      * [BusinessData Data]
     * [Part_III Session III: BPM and Ekahau]
       * 
     * [Part_IV Session IV: CEP]
