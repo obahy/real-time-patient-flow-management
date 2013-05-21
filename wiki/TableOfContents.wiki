@@ -7,13 +7,13 @@
     * [Part_II Session II: Clinical Pathways as a Business Process]
       * [Define Business Flow]
       * [Couches]
-      * [Data
+      * [Data]
     * [Part_III Session III: BPM and Ekahau]
       * 
     * [Part_IV Session IV: CEP]
       * [Introducation to CEP]
       * [Define Events and Actions]
-      * [Intermediate Objects]]
+      * [Intermediate Objects]
       * [Connections]
       * [Business logic]
       * [Real time running]
