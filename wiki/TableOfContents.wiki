@@ -9,6 +9,7 @@
       * [Authentication Authentication]
       * [BusinessObjects Business Objects - Object's Fields]
       * [Couches Couches]
+      * [BPTesting Testing]
     * [Part_III Session III: BPM and Ekahau]
       * 
     * [Part_IV Session IV: CEP]
