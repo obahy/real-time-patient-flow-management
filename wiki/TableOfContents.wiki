@@ -1,7 +1,7 @@
 #sidebar TableOfContents
 
   * [PFM_Course PFM Course]
-    * [Part_I Session I: Introduction to BPM]
+    * [Part_I Session I: BPM]
       * [Intro Introduction to PFM]
       * [Intro Introduction to BPM]
     * [Part_II Session II: Clinical Pathways as a Business Process]
