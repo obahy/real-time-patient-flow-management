@@ -1,13 +1,13 @@
 #sidebar TableOfContents
 
-  * [PFM_Course PFM Course]
-    * [Part_I Session I: BPM]
-      * [IntroPFM Introduction to PFM]
-      * [IntroBPM Introduction to BPM]
+  * [PFM_Course Patient Flow Management Course]
+    * [Part_I Session I: Business Process Management]
+      * [IntroPFM Introduction to Patient Flow Management]
+      * [IntroBPM Introduction to Business Process Management]
     * [Part_II Session II: Clinical Pathways as a Business Process]
       * [BusinessFlow Define Business Flow]
       * [Authentication Authentication]
-      * [BusinessObjects Business Objects - Object's Fields]
+      * [BusinessObjects Business Objects]
       * [Couches Couches (Business Process Interface)]
       * [BPTesting Testing]
     * [Part_III Session III: BPM and Ekahau]
