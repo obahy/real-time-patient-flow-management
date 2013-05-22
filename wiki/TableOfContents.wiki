@@ -12,8 +12,8 @@
       * [BPTesting Testing]
     * [Part_III Session III: BPM and Ekahau]
       * 
-    * [Part_IV Session IV: CEP]
-      * [IntroCEP Introduction to CEP]
+    * [Part_IV Session IV: Complex Events Processing]
+      * [IntroCEP Introduction to Complex Events Processing]
       * [EventsActions Events and Actions]
       * [IntermediateObjects Intermediate Objects]
       * [Connections Connections]
