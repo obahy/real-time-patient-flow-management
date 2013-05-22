@@ -1,4 +1,3 @@
-
 = Introduction =
 
 You define an event called _WebsiteRegisterationRequest_ to represent the registration request received from the website, and an action called _RegisterPatient_ which contains the information from the event that is required by the Hospital to register the patient.
@@ -6,7 +5,8 @@ You define an event called _WebsiteRegisterationRequest_ to represent the regist
 
 = Details =
 
-1. Start Design Data: *click Start* > *Programs* > *IBM WebSphere Business Events V7.0.1* > *Design Data*.
+1. Start Design Data: *click Start* > *Programs* > *IBM WebSphere
+Business Events V7.0.1* > *Design Data*.
 
    In Design Data, there are three main sections of the window:
    * Data Sources (which is collapsed when you first open Design Data,
@@ -51,47 +51,58 @@ The field that you just created is displayed in the right pane.
 
 Table 1. Other fields to be added.
 ||Name||	Data type||	Description||
-||First Name||	String||	The customer's first name.||
-||Last Name||	String||	The customer's last name.||
-||Zip Code||	String||	The customer's zip code.||
+||First Name||	String||	The patient's first name.||
+||Last Name||	String||	The patient's last name.||
+||OHIP Number||	Integer||	The patient's OHIP number.||
 
 
 
-You have defined an event called WebsiteQuoteRequest that contains six fields in an event object called RequestDetails.
+You have defined an event called *WebsiteRegisterationRequest* that contains six fields in an event object called *RequestDetails*.
 
-Next, you define the AddToCampaign action.
+Next, you define the *RegisterPatient* action.
 
-The AddToCampaign action is sent to the Marketing department every time WebSphere Business Events receives a WebsiteQuoteRequest event. The AddToCampaign action must, therefore, contain the contact details for the potential customer and information about the car that is to be insured so that only relevant marketing material is sent to the potential customer.
+The *RegisterPatient* action is sent to the Hospital every time WebSphere Business Events receives a *WebsiteRegisterationRequest* event. The *RegisterPatient* action must, therefore, contain the information of the patient so that it can be sent to the Hospital.
 
 You define actions in a similar way to defining events.
 
-Define the AddToCampaign action:
-Define a new touchpoint called Marketing (right-click the left pane of the Touchpoints section, then click Insert Touchpoint). The Marketing touchpoint represents the Marketing department system in the insurance company.
-Under the Marketing touchpoint, insert an action called AddToCampaign (right-click the Marketing touchpoint, then click Insert Action > Blank).
-For now, the AddToCampaign action contains the same information as the WebsiteQuoteRequest event. The exact marketing campaigns that are relevant to the potential customer are decided by the Marketing department based on this information. In the next step, you define that the information in the WebsiteQuoteRequest event is copied into the AddToCampaign action, to be sent to the Marketing department.
+3. Define the *RegisterPatient* action:
+
+   a. Define a new touchpoint called *Hospital* (right-click the left pane of the Touchpoints section, then click Insert Touchpoint). The Hospital touchpoint represents the Hospital.
+
+   b. Under the *Hospital* touchpoint, insert an action called *RegisterPatient* (right-click the Marketing touchpoint, then click Insert Action > Blank).
+
+For now, the *RegisterPatient* action contains the same information as the *WebsiteRegisterationRequest* event. In the next step, you define that the information in the *WebsiteRegisterationRequest* event is copied into the *RegisterPatient* action, to be sent to the Hospital.
+
+
+4. Define that the information in the *WebsiteRegisterationRequest* event is used in the *RegisterPatient* action:
+
+Strictly speaking, it is actually the information in the *RequestDetails* event object that is copied to the *RegisterPatient* action, where the information is structured in an action object called *RequestDetails*.
+
+Between events (incoming to WebSphere Business Events) and actions (outgoing from WebSphere Business Events) are intermediate objects. 
+
+Intermediate objects provide abstract representations of the information, or data, that is received in the event and which can be obtained from elsewhere or through calculations. In this exercise, you create a single intermediate object which contains the details of how the information in the *WebsiteQuoteRequest* event is copied to the *RegisterPatient* action.
+
+   a. In the *Touchpoints* section, click the *RequestDetails* event object, then drag the *RequestDetails* event object to anywhere in the left pane of the Intermediate Objects section.
+
+An intermediate object called *RequestDetails* is automatically created, containing all the same fields as the *RequestDetails* event object. 
+
+Each of the fields listed for the intermediate object is decorated with an event icon to show that it is associated with a field in an event object. Similarly, all the fields listed for the *RequestDetails* event object are now decorated with an intermediate object icon to show that it is associated with a field in an intermediate object.
 
 
 
-Define that the information in the WebsiteQuoteRequest event is used in the AddToCampaign action:
-Strictly speaking, it is actually the information in the RequestDetails event object that is copied to the AddToCampaign action, where the information is structured in an action object called RequestDetails.
+In the *Touchpoints* section, an object constructor has been automatically added under the *RequestDetails* event object. The object constructor contains the details of how the fields in the event object are associated with the fields in the intermediate object.
 
-Between events (incoming to WebSphere Business Events) and actions (outgoing from WebSphere Business Events) are intermediate objects. Intermediate objects provide abstract representations of the information, or data, that is received in the event and which can be obtained from elsewhere or through calculations. In this exercise, you create a single intermediate object which contains the details of how the information in the WebsiteQuoteRequest event is copied to the AddToCampaign action.
+  i. Click the *RequestDetails* object constructor. The fields in the RequestDetails intermediate object are displayed.
 
-In the Touchpoints section, click the RequestDetails event object, then drag the RequestDetails event object to anywhere in the left pane of the Intermediate Objects section.
-An intermediate object called RequestDetails is automatically created, containing all the same fields as the RequestDetails event object. Each of the fields listed for the intermediate object is decorated with an event icon to show that it is associated with a field in an event object. Similarly, all the fields listed for the RequestDetails event object are now decorated with an intermediate object icon to show that it is associated with a field in an intermediate object.
+  ii. Expand the First Name field to display its properties. The properties state that the First Name field of the intermediate object is associated to the First Name field of the event object. Each of the fields shows similar relationships.
 
+ b. Click the *RequestDetails* intermediate object, then drag the RequestDetails intermediate object to the *RegisterPatient* action. An action object called *RequestDetails* is automatically created in the *RegisterPatient* action.
 
-
-In the Touchpoints section, an object constructor has been automatically added under the RequestDetails event object. The object constructor contains the details of how the fields in the event object are associated with the fields in the intermediate object.
-Click the [RequestDetails] object constructor. The fields in the RequestDetails intermediate object are displayed.
-Expand the First Name field to display its properties. The properties state that the First Name field of the intermediate object is associated to the First Name field of the event object. Each of the fields shows similar relationships.
-
-Click the RequestDetails intermediate object, then drag the RequestDetails intermediate object to the AddToCampaign action. An action object called RequestDetails is automatically created in the AddToCampaign action.
 The icons that decorate each of the fields of the action object indicate that the field is associated with a field in the intermediate object. If you expand one of the field of the action object to display its properties, you can see exactly which field in the intermediate object is associated with the field of the action object.
 
 
 
-You have now defined the WebsiteQuoteRequest event and the AddToCampaign action, and specified how the information in the event is also to be contained in the action.
+You have now defined the *WebsiteRegiterationRequest* event and the *RegisterPatient* action, and specified how the information in the event is also to be contained in the action.
 
 Although the intermediate object seems like an unnecessary step in this exercise, in most applications that you build, the intermediate object contains information from more than one incoming event and the outgoing actions probably do not have a one-to-one relationship with the incoming events. Also, in an intermediate object, you can perform calculations by using JavaScript, or get additional information from data sources such as a database or get the result of the evaluation of additional business rules from WebSphere ILOG JRules.
 
