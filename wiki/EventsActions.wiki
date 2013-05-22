@@ -1,5 +1,4 @@
 
-
 = Introduction =
 
 You define an event called _WebsiteRegisterationRequest_ to represent the registration request received from the website, and an action called _RegisterPatient_ which contains the information from the event that is required by the Hospital to register the patient.
@@ -7,8 +6,7 @@ You define an event called _WebsiteRegisterationRequest_ to represent the regist
 
 = Details =
 
-1. Start Design Data: *click Start* > *Programs* > *IBM WebSphere
-   Business Events V7.0.1* > *Design Data*.
+1. Start Design Data: *click Start* > *Programs* > *IBM WebSphere Business Events V7.0.1* > *Design Data*.
 
    In Design Data, there are three main sections of the window:
    * Data Sources (which is collapsed when you first open Design Data,
@@ -22,39 +20,41 @@ You define an event called _WebsiteRegisterationRequest_ to represent the regist
       of the window, then click *Insert Touchpoint*
    b. In the Insert Touchpoint dialog, type Website, then click *OK*.
 
-   Touchpoints represent the system from which events are received or to
-   which actions are sent. The Website touchpoint represents the
-   insurance company website which sends events to WebSphere Business
-   Events. You define all events and actions under the touchpoint with
-   which they are associated.
+   Touchpoints represent the system from which events are received or to which actions are sent. The Website touchpoint represents the insurance company website which sends events to WebSphere Business Events. You define all events and actions under the touchpoint with which they are associated.
 
-   c. Right-click the Website touchpoint, then click *Insert Event* > Blank
-In the Insert Event dialog, type WebsiteQuoteRequest, then click OK.
-You have defined that the business event received from the website contains information in the structure of the event known as WebsiteQuoteRequest.
+   c. Right-click the *Website* touchpoint, then click *Insert Event* > *Blank*
+
+   d. In the Insert Event dialog, type *WebsiteRegisterationRequest*, then click *OK*.
+
+You have defined that the business event received from the website contains information in the structure of the event known as WebsiteRegisterationRequest.
 
 Now you must define what that structure is, by defining event objects in the event.
 
-Right-click the WebsiteQuoteRequest event, then click Insert Event Object > Blank
-In the Insert Event Object dialog, type RequestDetails.
-The RequestDetails event object contains fields that represent the discrete pieces of information in the WebsiteQuoteRequest event; for example, the first name, last name, post code or zip code, and the registration of the car.
+   e. Right-click the *WebsiteRegisterationRequest* event, then click *Insert Event Object* > *Blank*
 
+   f. In the Insert Event Object dialog, type *RequestDetails*.
 
-To add a field to the event object, right-click the RequestDetails event object, then click Insert Event Object Field
-In the Insert Field dialog box enter the following details, then click OK.
-In Name, type First Name
-In Data type, click String
-In Description, type The first name of the customer.
+The RequestDetails event object contains fields that represent the discrete pieces of information in the WebsiteRegisterationRequest event; for example, the first name, last name, and OHIP number.
+
+   g. To add a field to the event object, right-click the *RequestDetails* event object, then click *Insert Event Object Field*
+
+   h. In the Insert Field dialog box enter the following details, then click *OK*.
+     * In Name, type First Name
+     * In Data type, click String
+     * In Description, type The first name of the patient.
+
 The field that you just created is displayed in the right pane.
-Click the field () to expand it and see the details that you entered when you created it. The Data type field specifies that the First Name field contains String data (alphanumeric data). 
-Add the other fields listed in the following table in the same way. As an alternative, you can click once in the right pane, then to add each field by pressing the Insert key:
+
+   i. Click the field () to expand it and see the details that you entered when you created it. The Data type field specifies that the First Name field contains String data (alphanumeric data). 
+
+   j. Add the other fields listed in the following table in the same way. As an alternative, you can click once in the right pane, then to add each field by pressing the Insert key:
+
 Table 1. Other fields to be added.
-Name	Data type	Description
-First Name	String	The customer's first name.
-Last Name	String	The customer's last name.
-Zip Code	String	The customer's zip code.
-Phone	String	The customer's phone number.
-Registration	String	The car registration number.
-Year	Integer	The year of first registration of the car.
+||Name||	Data type||	Description||
+||First Name||	String||	The customer's first name.||
+||Last Name||	String||	The customer's last name.||
+||Zip Code||	String||	The customer's zip code.||
+
 
 
 You have defined an event called WebsiteQuoteRequest that contains six fields in an event object called RequestDetails.
