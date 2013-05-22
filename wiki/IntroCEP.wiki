@@ -7,6 +7,10 @@
 CEP is based on the observation that in many cases actions are triggered not by a single event, but by a complex composition of events, happening at different times, and within different contexts." {1}
 
 
+= Details =
+
+
+
 === References ===
 
 {1} Dr. Asaf Adi.Complex Event Processing. Retrieved  May 22, 2013, from http://www.research.ibm.com/haifa/dept/services/papers/cep_Jan07_nc.pdf
