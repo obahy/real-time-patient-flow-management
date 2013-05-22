@@ -14,7 +14,7 @@
       * Techical Tasks lambardi
         # [multiSelect Multi-select]
         # [Toolkits Toolkits]
-      * [UndercoverAgents Undercover Agents an Web services]
+      * [UndercoverAgents Undercover Agents and Web services]
       * [BPMAnalysis BPM Analysis and Simulation]
       * [Ekahau Ekahau]
     * [Part_IV Session IV: Complex Events Processing]
