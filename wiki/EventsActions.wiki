@@ -1,13 +1,98 @@
-#summary One-sentence summary of this page.
+
 
 = Introduction =
 
-Add your content here.
+You define an event called _WebsiteRegisterationRequest_ to represent the registration request received from the website, and an action called _RegisterPatient_ which contains the information from the event that is required by the Hospital to register the patient.
 
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+1. Start Design Data: *click Start* > *Programs* > *IBM WebSphere
+   Business Events V7.0.1* > *Design Data*.
+
+   In Design Data, there are three main sections of the window:
+   * Data Sources (which is collapsed when you first open Design Data,
+     and which you do not use in this tutorial)
+   * Intermediate Objects
+   * Touchpoints
+
+2. Define the _WebsiteRegisterationRequest_ event:
+  
+   a. Right-click anywhere in the left pane of the *Touchpoints* section
+      of the window, then click *Insert Touchpoint*
+   b. In the Insert Touchpoint dialog, type Website, then click *OK*.
+
+   Touchpoints represent the system from which events are received or to
+   which actions are sent. The Website touchpoint represents the
+   insurance company website which sends events to WebSphere Business
+   Events. You define all events and actions under the touchpoint with
+   which they are associated.
+
+   c. Right-click the Website touchpoint, then click *Insert Event* > Blank
+In the Insert Event dialog, type WebsiteQuoteRequest, then click OK.
+You have defined that the business event received from the website contains information in the structure of the event known as WebsiteQuoteRequest.
+
+Now you must define what that structure is, by defining event objects in the event.
+
+Right-click the WebsiteQuoteRequest event, then click Insert Event Object > Blank
+In the Insert Event Object dialog, type RequestDetails.
+The RequestDetails event object contains fields that represent the discrete pieces of information in the WebsiteQuoteRequest event; for example, the first name, last name, post code or zip code, and the registration of the car.
+
+
+To add a field to the event object, right-click the RequestDetails event object, then click Insert Event Object Field
+In the Insert Field dialog box enter the following details, then click OK.
+In Name, type First Name
+In Data type, click String
+In Description, type The first name of the customer.
+The field that you just created is displayed in the right pane.
+Click the field () to expand it and see the details that you entered when you created it. The Data type field specifies that the First Name field contains String data (alphanumeric data). 
+Add the other fields listed in the following table in the same way. As an alternative, you can click once in the right pane, then to add each field by pressing the Insert key:
+Table 1. Other fields to be added.
+Name	Data type	Description
+First Name	String	The customer's first name.
+Last Name	String	The customer's last name.
+Zip Code	String	The customer's zip code.
+Phone	String	The customer's phone number.
+Registration	String	The car registration number.
+Year	Integer	The year of first registration of the car.
+
+
+You have defined an event called WebsiteQuoteRequest that contains six fields in an event object called RequestDetails.
+
+Next, you define the AddToCampaign action.
+
+The AddToCampaign action is sent to the Marketing department every time WebSphere Business Events receives a WebsiteQuoteRequest event. The AddToCampaign action must, therefore, contain the contact details for the potential customer and information about the car that is to be insured so that only relevant marketing material is sent to the potential customer.
+
+You define actions in a similar way to defining events.
+
+Define the AddToCampaign action:
+Define a new touchpoint called Marketing (right-click the left pane of the Touchpoints section, then click Insert Touchpoint). The Marketing touchpoint represents the Marketing department system in the insurance company.
+Under the Marketing touchpoint, insert an action called AddToCampaign (right-click the Marketing touchpoint, then click Insert Action > Blank).
+For now, the AddToCampaign action contains the same information as the WebsiteQuoteRequest event. The exact marketing campaigns that are relevant to the potential customer are decided by the Marketing department based on this information. In the next step, you define that the information in the WebsiteQuoteRequest event is copied into the AddToCampaign action, to be sent to the Marketing department.
+
+
+
+Define that the information in the WebsiteQuoteRequest event is used in the AddToCampaign action:
+Strictly speaking, it is actually the information in the RequestDetails event object that is copied to the AddToCampaign action, where the information is structured in an action object called RequestDetails.
+
+Between events (incoming to WebSphere Business Events) and actions (outgoing from WebSphere Business Events) are intermediate objects. Intermediate objects provide abstract representations of the information, or data, that is received in the event and which can be obtained from elsewhere or through calculations. In this exercise, you create a single intermediate object which contains the details of how the information in the WebsiteQuoteRequest event is copied to the AddToCampaign action.
+
+In the Touchpoints section, click the RequestDetails event object, then drag the RequestDetails event object to anywhere in the left pane of the Intermediate Objects section.
+An intermediate object called RequestDetails is automatically created, containing all the same fields as the RequestDetails event object. Each of the fields listed for the intermediate object is decorated with an event icon to show that it is associated with a field in an event object. Similarly, all the fields listed for the RequestDetails event object are now decorated with an intermediate object icon to show that it is associated with a field in an intermediate object.
+
+
+
+In the Touchpoints section, an object constructor has been automatically added under the RequestDetails event object. The object constructor contains the details of how the fields in the event object are associated with the fields in the intermediate object.
+Click the [RequestDetails] object constructor. The fields in the RequestDetails intermediate object are displayed.
+Expand the First Name field to display its properties. The properties state that the First Name field of the intermediate object is associated to the First Name field of the event object. Each of the fields shows similar relationships.
+
+Click the RequestDetails intermediate object, then drag the RequestDetails intermediate object to the AddToCampaign action. An action object called RequestDetails is automatically created in the AddToCampaign action.
+The icons that decorate each of the fields of the action object indicate that the field is associated with a field in the intermediate object. If you expand one of the field of the action object to display its properties, you can see exactly which field in the intermediate object is associated with the field of the action object.
+
+
+
+You have now defined the WebsiteQuoteRequest event and the AddToCampaign action, and specified how the information in the event is also to be contained in the action.
+
+Although the intermediate object seems like an unnecessary step in this exercise, in most applications that you build, the intermediate object contains information from more than one incoming event and the outgoing actions probably do not have a one-to-one relationship with the incoming events. Also, in an intermediate object, you can perform calculations by using JavaScript, or get additional information from data sources such as a database or get the result of the evaluation of additional business rules from WebSphere ILOG JRules.
+
+Next, you edit the event and action definitions to specify how they connect to the systems outside of WebSphere Business Events.
