@@ -1,6 +1,6 @@
 = Introduction =
 
-You define an event called _!WebsiteRegisterationRequest_ to represent the registration request received from the website, and an action called _RegisterPatient_ which contains the information from the event that is required by the Hospital to register the patient.
+You define an event called _!WebsiteRegistrationRequest_ to represent the registration request received from the website, and an action called _!RegisterPatient_ which contains the information from the event that is required by the Hospital to register the patient.
 
 
 = Details =
@@ -12,7 +12,7 @@ You define an event called _!WebsiteRegisterationRequest_ to represent the regis
    * Intermediate Objects
    * Touchpoints
 
-2. Define the _!WebsiteRegisterationRequest_ event:
+2. Define the _!WebsiteRegistrationRequest_ event:
   
    a. Right-click anywhere in the left pane of the *Touchpoints* section
       of the window, then click *Insert Touchpoint*
@@ -22,17 +22,17 @@ You define an event called _!WebsiteRegisterationRequest_ to represent the regis
 
    c. Right-click the *Website* touchpoint, then click *Insert Event* > *Blank*
 
-   d. In the Insert Event dialog, type *WebsiteRegisterationRequest*, then click *OK*.
+   d. In the Insert Event dialog, type *!WebsiteRegistrationRequest*, then click *OK*.
 
-   You have defined that the business event received from the website contains information in the structure of the event known as !WebsiteRegisterationRequest.
+   You have defined that the business event received from the website contains information in the structure of the event known as !WebsiteRegistrationRequest.
 
    Now you must define what that structure is, by defining event objects in the event.
 
-   e. Right-click the *!WebsiteRegisterationRequest* event, then click *Insert Event Object* > *Blank*
+   e. Right-click the *!WebsiteRegistrationRequest* event, then click *Insert Event Object* > *Blank*
 
    f. In the Insert Event Object dialog, type *!RequestDetails*.
 
-   The !RequestDetails event object contains fields that represent the discrete pieces of information in the !WebsiteRegisterationRequest event; for example, the first name, last name, and OHIP number.
+   The !RequestDetails event object contains fields that represent the discrete pieces of information in the !WebsiteRegistrationRequest event; for example, the first name, last name, and OHIP number.
 
    g. To add a field to the event object, right-click the *!RequestDetails* event object, then click *Insert Event Object Field*
 
@@ -55,11 +55,11 @@ You define an event called _!WebsiteRegisterationRequest_ to represent the regis
 
 
 
-   You have defined an event called *!WebsiteRegisterationRequest* that contains six fields in an event object called *!RequestDetails*.
+   You have defined an event called *!WebsiteRegistrationRequest* that contains six fields in an event object called *!RequestDetails*.
 
    Next, you define the *!RegisterPatient* action.
 
-   The *!RegisterPatient* action is sent to the Hospital every time WebSphere Business Events receives a *!WebsiteRegisterationRequest* event. The *!RegisterPatient* action must, therefore, contain the information of the patient so that it can be sent to the Hospital.
+   The *!RegisterPatient* action is sent to the Hospital every time !WebSphere Business Events receives a *!WebsiteRegistrationRequest* event. The *!RegisterPatient* action must, therefore, contain the information of the patient so that it can be sent to the Hospital.
 
    You define actions in a similar way to defining events.
 
@@ -69,14 +69,14 @@ You define an event called _!WebsiteRegisterationRequest_ to represent the regis
 
    b. Under the *Hospital* touchpoint, insert an action called *!RegisterPatient* (right-click the Marketing touchpoint, then click Insert Action > Blank).
 
-   For now, the *!RegisterPatient* action contains the same information as the *!WebsiteRegisterationRequest* event. In the next step, you define that the information in the *!WebsiteRegisterationRequest* event is copied into the *!RegisterPatient* action, to be sent to the Hospital.
+   For now, the *!RegisterPatient* action contains the same information as the *!WebsiteRegistrationRequest* event. In the next step, you define that the information in the *!WebsiteRegistrationRequest* event is copied into the *!RegisterPatient* action, to be sent to the Hospital.
 
 
-4. Define that the information in the *!WebsiteRegisterationRequest* event is used in the *!RegisterPatient* action:
+4. Define that the information in the *!WebsiteRegistrationRequest* event is used in the *!RegisterPatient* action:
 
    Strictly speaking, it is actually the information in the *!RequestDetails* event object that is copied to the *!RegisterPatient* action, where the information is structured in an action object called *!RequestDetails*.
 
-   Between events (incoming to WebSphere Business Events) and actions (outgoing from WebSphere Business Events) are intermediate objects. 
+   Between events (incoming to !WebSphere Business Events) and actions (outgoing from !WebSphere Business Events) are intermediate objects. 
 
    Intermediate objects provide abstract representations of the information, or data, that is received in the event and which can be obtained from elsewhere or through calculations. In this exercise, you create a single intermediate object which contains the details of how the information in the *!WebsiteQuoteRequest* event is copied to the *!RegisterPatient* action.
 
@@ -100,7 +100,7 @@ You define an event called _!WebsiteRegisterationRequest_ to represent the regis
 
 
 
-  You have now defined the *!WebsiteRegiterationRequest* event and the *!RegisterPatient* action, and specified how the information in the event is also to be contained in the action.
+  You have now defined the *!WebsiteRegitrationRequest* event and the *!RegisterPatient* action, and specified how the information in the event is also to be contained in the action.
 
   Although the intermediate object seems like an unnecessary step in this exercise, in most applications that you build, the intermediate object contains information from more than one incoming event and the outgoing actions probably do not have a one-to-one relationship with the incoming events. Also, in an intermediate object, you can perform calculations by using !JavaScript, or get additional information from data sources such as a database or get the result of the evaluation of additional business rules from WebSphere ILOG JRules.
 
