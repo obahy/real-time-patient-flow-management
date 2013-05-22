@@ -18,7 +18,7 @@ You define an event called _!WebsiteRegistrationRequest_ to represent the regist
       of the window, then click *Insert Touchpoint*
    b. In the Insert Touchpoint dialog, type Website, then click *OK*.
 
-   Touchpoints represent the system from which events are received or to which actions are sent. The Website touchpoint represents the insurance company website which sends events to WebSphere Business Events. You define all events and actions under the touchpoint with which they are associated.
+   Touchpoints represent the system from which events are received or to which actions are sent. The Website touchpoint represents the insurance company website which sends events to !WebSphere Business Events. You define all events and actions under the touchpoint with which they are associated.
 
    c. Right-click the *Website* touchpoint, then click *Insert Event* > *Blank*
 
@@ -102,6 +102,6 @@ You define an event called _!WebsiteRegistrationRequest_ to represent the regist
 
   You have now defined the *!WebsiteRegitrationRequest* event and the *!RegisterPatient* action, and specified how the information in the event is also to be contained in the action.
 
-  Although the intermediate object seems like an unnecessary step in this exercise, in most applications that you build, the intermediate object contains information from more than one incoming event and the outgoing actions probably do not have a one-to-one relationship with the incoming events. Also, in an intermediate object, you can perform calculations by using !JavaScript, or get additional information from data sources such as a database or get the result of the evaluation of additional business rules from WebSphere ILOG JRules.
+  Although the intermediate object seems like an unnecessary step in this exercise, in most applications that you build, the intermediate object contains information from more than one incoming event and the outgoing actions probably do not have a one-to-one relationship with the incoming events. Also, in an intermediate object, you can perform calculations by using !JavaScript, or get additional information from data sources such as a database or get the result of the evaluation of additional business rules from !WebSphere ILOG JRules.
 
   Next, you edit the event and action definitions to specify how they connect to the systems outside of !WebSphere Business Events.
