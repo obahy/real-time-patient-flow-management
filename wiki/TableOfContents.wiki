@@ -11,7 +11,7 @@
       * [Couches Couches (Business Process Interface)]
       * [BPTesting Testing]
     * [Part_III Session III: BPM and Ekahau]
-      * [Techical Tasks lambardi]
+      * Techical Tasks lambardi
         # [multiSelect Multi-select]
         # [Toolkits Toolkits]
       * [UndercoverAgent Undercover Agents an Web services]
