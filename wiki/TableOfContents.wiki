@@ -11,7 +11,12 @@
       * [Couches Couches (Business Process Interface)]
       * [BPTesting Testing]
     * [Part_III Session III: BPM and Ekahau]
-      * 
+      * [Techical Tasks lambardi]
+        # [multiSelect Multi-select]
+        # [Toolkits Toolkits]
+      * [UndercoverAgent Undercover Agents an Web services]
+      * [BPMAnalysis BPM Analysis and Simulation]
+      * [Ekahau Ekahau]
     * [Part_IV Session IV: Complex Events Processing]
       * [IntroCEP Introduction to Complex Events Processing]
       * [EventsActions Create Events and Actions]
