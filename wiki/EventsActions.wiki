@@ -48,10 +48,10 @@ You define an event called WebsiteRegisterationRequest to represent the registra
    j. Add the other fields listed in the following table in the same way. As an alternative, you can click once in the right pane, then to add each field by pressing the Insert key:
 
    Table 1. Other fields to be added.
-||Name||	     Data type||        Description||
-||First Name||	String||	The patient's first name.||
-||Last Name||	String||	The patient's last name.||
-||OHIP Number||     Integer||	The patient's OHIP number.||
+   ||Name||	     Data type||        Description||
+   ||First Name||	String||	The patient's first name.||
+   ||Last Name||	String||	The patient's last name.||
+   ||OHIP Number||     Integer||	The patient's OHIP number.||
 
 
 
