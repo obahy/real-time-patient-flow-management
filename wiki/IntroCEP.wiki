@@ -4,7 +4,7 @@
 
 CEP is an approach that identifies data and application traffic as "events'' of importance, correlates these events to reveal predefined patterns, and reacts to them by generating "actions" to systems, people and devices.
 
-CEP is based on the observation that in many cases actions are triggered not by a single event, but by a complex composition of events, happening at different times, and within different contexts. ![1]
+CEP is based on the observation that in many cases actions are triggered not by a single event, but by a complex composition of events, happening at different times, and within different contexts. [[1]]
 
 
 === References ===
