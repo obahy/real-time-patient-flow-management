@@ -5,8 +5,7 @@ You define an event called _WebsiteRegisterationRequest_ to represent the regist
 
 = Details =
 
-1. Start Design Data: *click Start* > *Programs* > *IBM WebSphere
-Business Events V7.0.1* > *Design Data*.
+1. Start Design Data: *click Start* > *Programs* > *IBM WebSphere Business Events V7.0.1* > *Design Data*.
 
    In Design Data, there are three main sections of the window:
    * Data Sources (which is collapsed when you first open Design Data,
