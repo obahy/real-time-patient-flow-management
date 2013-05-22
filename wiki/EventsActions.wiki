@@ -1,6 +1,6 @@
 = Introduction =
 
-You define an event called _WebsiteRegisterationRequest_ to represent the registration request received from the website, and an action called _RegisterPatient_ which contains the information from the event that is required by the Hospital to register the patient.
+You define an event called _WebsiteRegisterationRequest to represent the registration request received from the website, and an action called _RegisterPatient_ which contains the information from the event that is required by the Hospital to register the patient.
 
 
 = Details =
