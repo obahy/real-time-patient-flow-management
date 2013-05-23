@@ -5,7 +5,7 @@
 You define an event called _BPMRegistrationRequest_ to represent the registration request received from *BPM*, and an action called _!RegisterPatient_ which contains the information from the event that is required by the Hospital to register the patient.
 
 
-= Procedure =
+== Procedure ==
 
 1. Start Design Data: *click Start* > *Programs* > *IBM !WebSphere Business Events V7.0.1* > *Design Data*.
 
