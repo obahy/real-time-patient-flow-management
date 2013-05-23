@@ -44,7 +44,7 @@ e. For testing the business logic, you use the Business Events Tester widget. Th
 
 2. Open your project in the Design tool in Business Space:
 
-In Design Data, you saved the data model in the project store. Saving to the project store means that you can easily open the project in Design in Business Space to add the business logic to it.
+   In Design Data, you saved the data model in the project store. Saving to the project store means that you can easily open the project in Design in Business Space to add the business logic to it.
 
    a. In the Business Events Design widget, click *Project* > *Open*. If you logged in to Business Space with the same user ID that you used when you saved the project from Design Data, then in the Open Project dialog, the folder that contains the project is opened by default.
 
@@ -58,7 +58,7 @@ In Design Data, you saved the data model in the project store. Saving to the pro
 
    An _interaction_ set contains the business logic that !WebSphere Business Events uses to process incoming instances of events. An interaction set always contains a reference to an event definition. When an instance of that event is received by !WebSphere Business Events, the interaction set starts processing the event according to the business logic in the interaction set. Interaction sets can contain more than one piece of logic that processes the event. Each piece of logic is known as an _interaction block_. In this exercise, you create just one interaction block. Finally, interaction sets often contain a reference to at least one action definition, which is sent according to the outcome of the event processing.
 
-Typically an interaction block contains one or more _filters_, which are conditions against which the event is evaluated. You add the filters to the interaction block in this interaction set later. In this exercise, the interaction set does not contain any filters so that you can test that the data model you created works.
+   Typically an interaction block contains one or more _filters_, which are conditions against which the event is evaluated. You add the filters to the interaction block in this interaction set later. In this exercise, the interaction set does not contain any filters so that you can test that the data model you created works.
 
    a. In Design, click the _New Interaction Set_ button on the toolbar.
 A new interaction set template is displayed in the editor pane. In the Current project pane, the new interaction set has been added to the list of assets under the Interaction Sets category. All assets are organized in folders. A folder called New Folder has been created to contain the interaction set. You can rename the folder if you like; the name of the folder has no effect on how your project works. The use of folders allows you to group assets together based on the requirements of your projects.
@@ -77,7 +77,7 @@ A new interaction set template is displayed in the editor pane. In the Current p
 
    e. Click another asset in the tree to save the changes you have made, then click the *Register Patient* interaction set to view it in the editor.
 
-In the editor, the interaction set is shown as one block shaded blue (in which you entered the name of the interaction set and set the event), and a second block that is indented slightly and shaded green (in which you set the action). As there are no filters in the interaction block that you just created, the text in the middle of the interaction block says *Always*, which indicates that the !RegisterPatient action is always sent in response to receiving the !BPMRegistrationRequest event.
+   In the editor, the interaction set is shown as one block shaded blue (in which you entered the name of the interaction set and set the event), and a second block that is indented slightly and shaded green (in which you set the action). As there are no filters in the interaction block that you just created, the text in the middle of the interaction block says *Always*, which indicates that the !RegisterPatient action is always sent in response to receiving the !BPMRegistrationRequest event.
 Notice, too, that there are two instances of the word *Immediately* displayed in the interaction block. The first instance, at the start of the interaction block, indicates that the interaction block processes the event immediately it receives it. The second instance, indicates that the !RegisterPatient action is sent immediately on processing the event. You add delays and additional actions, as well as filters, in later exercises.
 
-The project is now ready to publish and test.
+   The project is now ready to publish and test.
