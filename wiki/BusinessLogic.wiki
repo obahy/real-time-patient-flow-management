@@ -12,11 +12,11 @@ In this exercise, you define the simple business logic that sends the RegisterPa
 
 a. Start Business Space. Click *Start* > *Programs* > *IBM !WebSphere Business Events V7.0.1* > *Business Space*.
 
-If security is enabled, the first time that you open Business Space, you might be prompted to accept a security certificate.
+   If security is enabled, the first time that you open Business Space, you might be prompted to accept a security certificate.
 
 b. Enter a user ID and password to log in to Business Space.
 
-By default, security is enabled so that only authorized users can access the application building tools (like Business Space or the User Console and Administration UIs). The user ID that you use determines whether you can view and edit the project in the Business Space project store. Therefore, use the same user ID and password that you used to save the project from Design Data.
+   By default, security is enabled so that only authorized users can access the application building tools (like Business Space or the User Console and Administration UIs). The user ID that you use determines whether you can view and edit the project in the Business Space project store. Therefore, use the same user ID and password that you used to save the project from Design Data.
 
 c. Create your own business space in Business Space by using the !WebSphere Business Events template.
 
