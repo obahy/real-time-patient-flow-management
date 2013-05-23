@@ -53,3 +53,31 @@ In Design Data, you saved the data model in the project store. Saving to the pro
    c. Click *Open*. The project is opened in Design.
 
    In the Current project pane, you can see the tree-like organization of the assets that you have created so far (the !BPMRegistrationRequest event definition, the !RegisterPatient action definitions, and the !RequestDetails intermediate object), and place holders for interaction sets and filters.
+
+3. Create the !RegisterPatient interaction set:
+
+   An _interaction_ set contains the business logic that !WebSphere Business Events uses to process incoming instances of events. An interaction set always contains a reference to an event definition. When an instance of that event is received by !WebSphere Business Events, the interaction set starts processing the event according to the business logic in the interaction set. Interaction sets can contain more than one piece of logic that processes the event. Each piece of logic is known as an _interaction block_. In this exercise, you create just one interaction block. Finally, interaction sets often contain a reference to at least one action definition, which is sent according to the outcome of the event processing.
+
+Typically an interaction block contains one or more _filters_, which are conditions against which the event is evaluated. You add the filters to the interaction block in this interaction set later. In this exercise, the interaction set does not contain any filters so that you can test that the data model you created works.
+
+   a. In Design, click the _New Interaction Set_ button on the toolbar.
+A new interaction set template is displayed in the editor pane. In the Current project pane, the new interaction set has been added to the list of assets under the Interaction Sets category. All assets are organized in folders. A folder called New Folder has been created to contain the interaction set. You can rename the folder if you like; the name of the folder has no effect on how your project works. The use of folders allows you to group assets together based on the requirements of your projects.
+
+   b. Name the interaction set Register Patient by replacing the text _New Interaction Set_ with Register Patient.
+ 
+   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/interactionset.png
+
+   c. Set the *!BPMRegisrationRequest* event definition as the event that is processed by this interaction set by clicking the gray box that says *Click to select an event*, then click *BPM* (which is the touchpoint on which you defined the event in Design Data), then click *!BPMRegisrationRequest* (the event you defined in Design Data).
+   
+    https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/interactionset1.png
+
+   d. Set the *!RegisterPatient* action definition as the action that is sent to the Marketing department every time the !BPMRegistrationRequest is received from a potential customer by clicking the gray box that says *Click to select an action*, then click BPM (the touchpoint on which you defined the action), then click !RegisterPatient.
+ 
+   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/interactionset2.png
+
+   e. Click another asset in the tree to save the changes you have made, then click the *Register Patient* interaction set to view it in the editor.
+
+In the editor, the interaction set is shown as one block shaded blue (in which you entered the name of the interaction set and set the event), and a second block that is indented slightly and shaded green (in which you set the action). As there are no filters in the interaction block that you just created, the text in the middle of the interaction block says *Always*, which indicates that the !RegisterPatient action is always sent in response to receiving the !BPMRegistrationRequest event.
+Notice, too, that there are two instances of the word *Immediately* displayed in the interaction block. The first instance, at the start of the interaction block, indicates that the interaction block processes the event immediately it receives it. The second instance, indicates that the !RegisterPatient action is sent immediately on processing the event. You add delays and additional actions, as well as filters, in later exercises.
+
+The project is now ready to publish and test.
