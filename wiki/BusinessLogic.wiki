@@ -2,9 +2,9 @@
 
 == Task 4.4: Building the business logic ==
 
-When the patient requests to register, an instance of the !BPMRegisterationRequest event is received by !WebSphere Business Events. !WebSphere Business Events then processes the information in that event according to the business logic that has been defined. In this exercise, every time !WebSphere Business Events receives an instance of the !BPMRegisterationRequest event, !WebSphere Business Events sends an instance of the !RegisterPatient action to BPM so that the patient will be registered.
+When the patient requests to register, an instance of the !BPMRegisterationRequest event is received by !WebSphere Business Events. !WebSphere Business Events then processes the information in that event according to the business logic that has been defined. In this exercise, every time !WebSphere Business Events receives an instance of the BPMRegisterationRequest event, !WebSphere Business Events sends an instance of the !RegisterPatient action to BPM so that the patient will be registered.
 
-In this exercise, you define the simple business logic that sends the RegisterPatient action in response to incoming instances of the BPMRegisterationRequest event
+In this exercise, you define the simple business logic that sends the !RegisterPatient action in response to incoming instances of the BPMRegisterationRequest event
 
 == Procedure ==
 
