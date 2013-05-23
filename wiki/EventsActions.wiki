@@ -50,6 +50,8 @@ You define an event called _BPMRegistrationRequest_ to represent the registratio
 
    i. Click the field (https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/Firstnamebutton.png) to expand it and see the details that you entered when you created it. The Data type field specifies that the First Name field contains String data (alphanumeric data). 
 
+https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/FirstNameField.png
+
    j. Add the other fields listed in the following table in the same way. As an alternative, you can click once in the right pane, then to add each field by pressing the Insert key:
 
    Table 1. Other fields to be added.
@@ -58,7 +60,7 @@ You define an event called _BPMRegistrationRequest_ to represent the registratio
 ||Last Name||	String||	The patient's last name.||
 ||OHIP Number||     Integer||	The patient's OHIP number.||
 
-
+https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/EventObjectFields.png
 
    You have defined an event called *BPMRegistrationRequest* that contains six fields in an event object called *!RequestDetails*.
 
@@ -74,6 +76,7 @@ You define an event called _BPMRegistrationRequest_ to represent the registratio
 
    For now, the *!RegisterPatient* action contains the same information as the *BPMRegistrationRequest* event. In the next step, you define that the information in the *BPMRegistrationRequest* event is copied into the *!RegisterPatient* action, to be sent to the BPM.
 
+https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/BPMAction.png
 
 4. Define that the information in the *BPMRegistrationRequest* event is used in the *!RegisterPatient* action:
 
@@ -89,7 +92,7 @@ You define an event called _BPMRegistrationRequest_ to represent the registratio
 
    Each of the fields listed for the intermediate object is decorated with an event icon to show that it is associated with a field in an event object. Similarly, all the fields listed for the *!RequestDetails* event object are now decorated with an intermediate object icon to show that it is associated with a field in an intermediate object.
 
-
+https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/intermediateobject.png
 
    In the *Touchpoints* section, an object constructor has been automatically added under the *!RequestDetails* event object. The object constructor contains the details of how the fields in the event object are associated with the fields in the intermediate object.
 
@@ -97,11 +100,13 @@ You define an event called _BPMRegistrationRequest_ to represent the registratio
 
     ii. Expand the First Name field to display its properties. The properties state that the First Name field of the intermediate object is associated to the First Name field of the event object. Each of the fields shows similar relationships.
 
+https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/constructor.png
+
   b. Click the *!RequestDetails* intermediate object, then drag the !RequestDetails intermediate object to the *!RegisterPatient* action. An action object called *!RequestDetails* is automatically created in the *!RegisterPatient* action.
 
   The icons that decorate each of the fields of the action object indicate that the field is associated with a field in the intermediate object. If you expand one of the field of the action object to display its properties, you can see exactly which field in the intermediate object is associated with the field of the action object.
 
-
+https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/requestDetailsActionObject.png
 
   You have now defined the *BPMRegistrationRequest* event and the *!RegisterPatient* action, and specified how the information in the event is also to be contained in the action.
 
