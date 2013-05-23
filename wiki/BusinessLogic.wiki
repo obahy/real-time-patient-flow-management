@@ -2,12 +2,12 @@
 
 == Task 4.4: Building the business logic ==
 
-When the patient requests to register, an instance of the BPMRegisterationRequest event is received by !WebSphere Business Events. !WebSphere Business Events then processes the information in that event according to the business logic that has been defined. In this exercise, every time !WebSphere Business Events receives an instance of the BPMRegisterationRequest event, !WebSphere Business Events sends an instance of the RegisterPatient action to BPM so that the patient will be registered.
+When the patient requests to register, an instance of the !BPMRegisterationRequest event is received by !WebSphere Business Events. !WebSphere Business Events then processes the information in that event according to the business logic that has been defined. In this exercise, every time !WebSphere Business Events receives an instance of the !BPMRegisterationRequest event, !WebSphere Business Events sends an instance of the !RegisterPatient action to BPM so that the patient will be registered.
 
 In this exercise, you define the simple business logic that sends the RegisterPatient action in response to incoming instances of the BPMRegisterationRequest event
 
 == Procedure ==
-https://code.google.com/p/real-time-patient-flow-management/w/edit/BusinessLogic
+
 1. Setting up the Design tool in Business Space: If you have already used the Design tool in Business Space, you can skip this step.
 
 a. Start Business Space. Click *Start* > *Programs* > *IBM !WebSphere Business Events V7.0.1* > *Business Space*.
@@ -51,4 +51,5 @@ In Design Data, you saved the data model in the project store. Saving to the pro
    b. If you logged in to Business Space with a different user ID from when you (or another user) saved the project from Design Data, then in the Open Project dialog, in the *Folder* pane, click the name of the folder in which the _!PatientRegisterationTutorial_ project was saved from Design Data. In the *Project* pane, click * !PatientRegisterationTutorial *.
 
    c. Click *Open*. The project is opened in Design.
-In the Current project pane, you can see the tree-like organization of the assets that you have created so far (the !BPMRegistrationRequest event definition, the !RegisterPatient action definitions, and the !RequestDetails intermediate object), and place holders for interaction sets and filters.
+
+   In the Current project pane, you can see the tree-like organization of the assets that you have created so far (the !BPMRegistrationRequest event definition, the !RegisterPatient action definitions, and the !RequestDetails intermediate object), and place holders for interaction sets and filters.
