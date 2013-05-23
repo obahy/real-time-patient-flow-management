@@ -1,13 +1,42 @@
-#summary One-sentence summary of this page.
 
 = Introduction =
 
-Add your content here.
+== Task 4.4: Building the business logic ==
 
+When the patient requests to register, an instance of the BPMRegisterationRequest event is received by !WebSphere Business Events. !WebSphere Business Events then processes the information in that event according to the business logic that has been defined. In this exercise, every time !WebSphere Business Events receives an instance of the BPMRegisterationRequest event, !WebSphere Business Events sends an instance of the RegisterPatient action to BPM so that the patient will be registered.
 
-= Details =
+In this exercise, you define the simple business logic that sends the RegisterPatient action in response to incoming instances of the BPMRegisterationRequest event
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== Procedure ==
+
+1. Setting up the Design tool in Business Space: If you have already used the Design tool in Business Space, you can skip this step.
+
+a. Start Business Space. Click *Start* > *Programs* > *IBM !WebSphere Business Events V7.0.1* > *Business Space*.
+
+If security is enabled, the first time that you open Business Space, you might be prompted to accept a security certificate.
+
+b. Enter a user ID and password to log in to Business Space.
+
+By default, security is enabled so that only authorized users can access the application building tools (like Business Space or the User Console and Administration UIs). The user ID that you use determines whether you can view and edit the project in the Business Space project store. Therefore, use the same user ID and password that you used to save the project from Design Data.
+
+c. Create your own business space in Business Space by using the !WebSphere Business Events template.
+
+   1. From the Business Space Home page, click *Manage Spaces* > *Create Space*.
+
+   2. Enter the Space name as *PatientRegisterationTutorial*and the Space description details.
+
+   3. Select the Create a new space using a template check box and open the template selection list. The following screen capture shows this section of the Create Space page.
+
+     https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/creatingspace.png
+
+   4. When you have selected the options you want to use in your business space, click *Save*.
+
+   5. The Space Manager page is displayed showing the list of business spaces you can access. Click the name of the business space you created.
+
+   6. The business space opens and the !WebSphere Business Events widgets are displayed in the tabs below the business space name.
+
+   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/businessSpace.png
+
+d. To build the business logic, you use the Business Events Design widget.
+
+e. For testing the business logic, you use the Business Events Tester widget. The business space now contains both widgets so that you can build and test the business logic for the application.
