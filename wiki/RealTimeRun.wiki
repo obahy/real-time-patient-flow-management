@@ -10,6 +10,8 @@ Now that you have completed the data model and business logic definitions in the
 
 The status message says *Publishing project: published successfully*.
 
+https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/publish.png
+
 If the publishing fails, check the error message and fix any problems. Check that you have defined the assets in the project as described in the steps in this topic.
 
 If the publishing still fails, save the project to the project store, then open the project in Design Data to check whether any of the data model assets are showing errors on their icons in the left pane.
