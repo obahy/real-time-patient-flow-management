@@ -36,7 +36,7 @@ You define an event called _BPMRegistrationRequest_ to represent the registratio
 
    The !RequestDetails event object contains fields that represent the discrete pieces of information in the BPMRegistrationRequest event; for example, the first name, last name, and OHIP number.
    
-   https://real-time-patient-flow-management.googlecode.com/svn/wiki/images/RequestDetailsObject.png
+   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/RequestDetailsObject.png
  
 
    g. To add a field to the event object, right-click the *!RequestDetails* event object, then click *Insert Event Object Field*
