@@ -1,5 +1,5 @@
 = Introduction =
-
+[http://code.google.com/ http://code.google.com/images/code_sm.png]
 
 == Task 4.1: Create Events and Actions ==
 You define an event called _BPMRegistrationRequest_ to represent the registration request received from *BPM*, and an action called _!RegisterPatient_ which contains the information from the event that is required by the Hospital to register the patient.
