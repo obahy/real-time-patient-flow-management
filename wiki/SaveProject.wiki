@@ -6,7 +6,7 @@ Saving the project so that you can open it in Design to build the business logic
 
 Now that you have defined the incoming event and outgoing action, you must save the project in the Business Space project store, or a separate business user, so that you can open the project in the Design tool in Business Space.
 
-= Procedure =
+== Procedure ==
 
 1. In Design Data tool, click *File* > *Save As Project To Server Store*. 
 
