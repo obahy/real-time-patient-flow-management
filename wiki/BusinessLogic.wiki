@@ -40,3 +40,15 @@ c. Create your own business space in Business Space by using the !WebSphere Busi
 d. To build the business logic, you use the Business Events Design widget.
 
 e. For testing the business logic, you use the Business Events Tester widget. The business space now contains both widgets so that you can build and test the business logic for the application.
+
+
+2. Open your project in the Design tool in Business Space:
+
+In Design Data, you saved the data model in the project store. Saving to the project store means that you can easily open the project in Design in Business Space to add the business logic to it.
+
+   a. In the Business Events Design widget, click *Project* > *Open*. If you logged in to Business Space with the same user ID that you used when you saved the project from Design Data, then in the Open Project dialog, the folder that contains the project is opened by default.
+
+   b. If you logged in to Business Space with a different user ID from when you (or another user) saved the project from Design Data, then in the Open Project dialog, in the *Folder* pane, click the name of the folder in which the _!PatientRegisterationTutorial_ project was saved from Design Data. In the *Project* pane, click * !PatientRegisterationTutorial *.
+
+   c. Click *Open*. The project is opened in Design.
+In the Current project pane, you can see the tree-like organization of the assets that you have created so far (the !BPMRegistrationRequest event definition, the !RegisterPatient action definitions, and the !RequestDetails intermediate object), and place holders for interaction sets and filters.
