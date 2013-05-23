@@ -20,6 +20,7 @@ By default, security is enabled so that only authorized users can access the app
 
 c. Create your own business space in Business Space by using the !WebSphere Business Events template.
 
+
    1. From the Business Space Home page, click *Manage Spaces* > *Create Space*.
 
    2. Enter the Space name as *!PatientRegisterationTutorial* and the Space description details.
