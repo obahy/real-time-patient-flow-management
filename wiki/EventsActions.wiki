@@ -1,5 +1,5 @@
 = Introduction =
-[http://code.google.com/ http://code.google.com/images/code_sm.png]
+
 
 == Task 4.1: Create Events and Actions ==
 You define an event called _BPMRegistrationRequest_ to represent the registration request received from *BPM*, and an action called _!RegisterPatient_ which contains the information from the event that is required by the Hospital to register the patient.
@@ -35,6 +35,7 @@ You define an event called _BPMRegistrationRequest_ to represent the registratio
    f. In the Insert Event Object dialog, type *!RequestDetails*.
 
    The !RequestDetails event object contains fields that represent the discrete pieces of information in the BPMRegistrationRequest event; for example, the first name, last name, and OHIP number.
+
 
    g. To add a field to the event object, right-click the *!RequestDetails* event object, then click *Insert Event Object Field*
 
