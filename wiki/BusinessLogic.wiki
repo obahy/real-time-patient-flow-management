@@ -71,13 +71,13 @@ A new interaction set template is displayed in the editor pane. In the Current p
    
     https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/interactionset1.png
 
-   d. Set the *!RegisterPatient* action definition as the action that is sent to the Marketing department every time the !BPMRegistrationRequest is received from a potential customer by clicking the gray box that says *Click to select an action*, then click BPM (the touchpoint on which you defined the action), then click !RegisterPatient.
+   d. Set the *!RegisterPatient* action definition as the action that is sent to the Marketing department every time the BPMRegistrationRequest is received from a potential customer by clicking the gray box that says *Click to select an action*, then click BPM (the touchpoint on which you defined the action), then click !RegisterPatient.
  
    https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/interactionset2.png
 
    e. Click another asset in the tree to save the changes you have made, then click the *Register Patient* interaction set to view it in the editor.
 
-   In the editor, the interaction set is shown as one block shaded blue (in which you entered the name of the interaction set and set the event), and a second block that is indented slightly and shaded green (in which you set the action). As there are no filters in the interaction block that you just created, the text in the middle of the interaction block says *Always*, which indicates that the !RegisterPatient action is always sent in response to receiving the !BPMRegistrationRequest event.
+   In the editor, the interaction set is shown as one block shaded blue (in which you entered the name of the interaction set and set the event), and a second block that is indented slightly and shaded green (in which you set the action). As there are no filters in the interaction block that you just created, the text in the middle of the interaction block says *Always*, which indicates that the !RegisterPatient action is always sent in response to receiving the BPMRegistrationRequest event.
    Notice, too, that there are two instances of the word *Immediately* displayed in the interaction block. The first instance, at the start of the interaction block, indicates that the interaction block processes the event immediately it receives it. The second instance, indicates that the !RegisterPatient action is sent immediately on processing the event. You add delays and additional actions, as well as filters, in later exercises.
 
    The project is now ready to publish and test.
