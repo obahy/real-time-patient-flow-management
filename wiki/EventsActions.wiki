@@ -48,7 +48,7 @@ You define an event called _BPMRegistrationRequest_ to represent the registratio
 
    The field that you just created is displayed in the right pane.
 
-   i. Click the field () to expand it and see the details that you entered when you created it. The Data type field specifies that the First Name field contains String data (alphanumeric data). 
+   i. Click the field (https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/FirstName button.png) to expand it and see the details that you entered when you created it. The Data type field specifies that the First Name field contains String data (alphanumeric data). 
 
    j. Add the other fields listed in the following table in the same way. As an alternative, you can click once in the right pane, then to add each field by pressing the Insert key:
 
