@@ -13,3 +13,7 @@
 3. Choose *Check in service* from the list. Then, the _Check in service_ will show instead of the Default Human Service_.
 
    https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/CheckinService.png
+
+4. Now go to Checkin activity in the Diagram and double click on it.
+
+5. 
