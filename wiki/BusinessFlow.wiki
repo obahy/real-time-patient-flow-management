@@ -65,6 +65,6 @@ The following are instructions of what you will need to do create the above clin
 
     c. To name events, activities, and decisions, you just follow the same as you did for the lanes. Click on the symbole you want to name and then change its *Name* field.
 
-    *Note*: Do not forgot to save what you did.
+*Note*: Do not forgot to save what you did.
 
 Now that you defined the Business Flow, you should create Business objects related to each participant in the clinical pathway process.
