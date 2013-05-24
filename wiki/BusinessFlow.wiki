@@ -24,3 +24,13 @@
 ||4||	Shows the revision history for the currently open process application. In this sample, a user has recently added items to the open process.||
 ||5||	Use the icons to create snapshots, access the Process Center Console, or access online assistance.||
 ||6||	Shows the library item currently open for editing in the Designer. In this sample, the user has a process open and is working in the diagram, palette, and properties to create the steps of the process.||
+
+5. Click on the plus sign in the *Processes* at the left pane, and under _Create New_ choose *Business Process Definition*, as shown below:
+
+   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/NewBusinessProcess.png 
+
+6. Name the new business process *Clinical-Pathway* and precess *finish*.
+
+7. The process will open to start modelling the clinical pathway of the patient path in the hospital.
+   
+   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/Clinical-Pathway.png
