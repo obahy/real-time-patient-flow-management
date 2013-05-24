@@ -48,3 +48,11 @@
   Now add the a Lane for each participant, as follows:
 
     https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/Lanes.png
+
+  To manage the location of each Lane with respect to the other Lanes, you can click on the Lane and then *right-click* and choose from the list: *Move Up Lane*, *Move down Lane*, or *Edit*(if you want to edit the Lane).
+
+10. Now that you created the participants, you can start manage the clinical path flow between them as the following:
+   
+     https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/BusinessFlow.png
+
+The following is instruction of what you will need to do create the above clinical pathway. 
