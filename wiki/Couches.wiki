@@ -3,3 +3,13 @@
  In this task, you will create the interface of the form that the patient will fill out when he/she arrives at the !Checkin Activity.
 
 == Procedure ==
+
+1. First of all, navigate to the Clinical-Pathway Diagram and press on the *Checkin* activity.
+
+2. In the *Checkin* activity properties, press on *implementation* and then on *Select*.
+   
+   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/CheckinProperties.png
+
+3. Choose *Check in service* from the list. Then, the _Check in service_ will show instead of the Default Human Service_.
+
+   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/CheckinService.png
