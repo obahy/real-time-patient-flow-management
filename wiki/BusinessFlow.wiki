@@ -34,3 +34,7 @@
 7. The process will open to start modelling the clinical pathway of the patient path in the hospital.
    
    https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/Clinical-Pathway.png
+
+   You will use the palette on the right to model the clinical pathway, here is a description of the symbols you are going to use:
+
+   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/palette.png
