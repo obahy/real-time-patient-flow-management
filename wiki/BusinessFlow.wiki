@@ -1,13 +1,28 @@
-#summary One-sentence summary of this page.
+== Task 2.1: Define Business Flow ==
 
-= Introduction =
-
-Add your content here.
+ In this task, you are going to define the clinical pathway from when the patient enters the hospital until the patient is discharged. This is a simple application, so the clinical pathway will not hold a lot of the real time details.
 
 
-= Details =
+== Procedure ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+1. Log in to the *IBM Process Designer* by providing your account User Name and Password.
+
+2. The first time you start IBM Process Designer, it opens to the Process Center Console:
+
+3. Open the application process that is assigned to you by the instructor, click the *Open in Designer* option for the process application that you want to access.
+
+4. The following image shows the Designer interface and each functional area:
+
+   You can use the Designer interface to develop process models and their underlying implementations, such as services. The following table describes each numbered area in the preceding image of the Designer interface in Lombardi Authoring Environment:
+
+||1||	Click the appropriate button to open the interface that you want in Lombardi Authoring Environment, including the Optimizer and Inspector views.||
+
+||2||	Shows the process application currently open. In this sample, the Billing process application is open.||
+
+||3||	Shows the types of library items included in the currently open process application. Click a category, such as Processes, to see the processes that you can open and alter.||
+
+||4||	Shows the revision history for the currently open process application. In this sample, a user has recently added items to the open process.||
+
+||5||	Use the icons to create snapshots, access the Process Center Console, or access online assistance.||
+
+||6||	Shows the library item currently open for editing in the Designer. In this sample, the user has a process open and is working in the diagram, palette, and properties to create the steps of the process.||
