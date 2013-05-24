@@ -27,7 +27,7 @@
 
 5. Click on the plus sign in the *Processes* at the left pane, and under _Create New_ choose *Business Process Definition*, as shown below:
 
-   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/NewBusinessProcess.png 
+   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/newBusinessProcess.png 
 
 6. Name the new business process *Clinical-Pathway* and precess *finish*.
 
