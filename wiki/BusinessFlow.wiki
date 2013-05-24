@@ -55,4 +55,14 @@
    
      https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/BusinessFlow.png
 
-The following is instruction of what you will need to do create the above clinical pathway. 
+The following are instructions of what you will need to do create the above clinical pathway:
+
+    a. To connect events, activities, and decisions, you should use the _Sequence Line_. (Note: when you finished using the sequence lines, you can press on the *select* symbole in the palette or you can press *Escape* in the keyboard in order to get back to the anchor mode)
+
+    b. To name a sequence line, click on the line you want to name and change the name and don't forget to check the visible option under the name field, see the following:  
+
+       https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/LineName.png
+
+    c. To name events, activities, and decisions, you just follow the same as you did for the lanes. Click on the symbole you want to name and then change its *Name* field.
+
+Now that you defined the Business Flow, you should create Business objects related to each participant in the clinical pathway process.
