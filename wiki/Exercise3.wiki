@@ -19,3 +19,5 @@ Below are all of the steps required to complete this exercise
 [Exercise3part6]
 
 [Exercise3part7]
+
+Referenced from [http://publib.boulder.ibm.com/infocenter/wbevents/v7r0m1/index.jsp]
