@@ -1,13 +1,11 @@
-#summary One-sentence summary of this page.
-
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Publish and test the updated project and the new Add To Campaign Next Year interaction set:
+In Design, clear the project previously published to WebSphere Business Events Runtime so that the changes you have made can take effect. Click Runtime > Delete repository assets.
+Publish the project by clicking Runtime > Publish to runtime.
+Check the status bar to make sure that there were no problems during publishing. The changes that you made to the interaction set and the intermediate objects, the new filters that you created, and the new event that you defined are all published to the server.
+To test the changes you have made, send the following sequence of test events, checking each time for an action according to what is listed in the following table:
+Table 1. Events to send and details to check.
+Steps	Event	How to submit the event instance	Action	Reason for action
+1	WebsiteQuoteRequest	Submit the quote.html form with a new value in the Registration field, for example K123 GHI.	AddToCampaign	This instance is the first time the WebsiteQuoteRequest event is received with the new value you used in the Registration field. That is, the first request for a quotation for this car. Therefore the details of the potential customer are forwarded (in the AddToCampaign action instance) to the Marketing department.
+2	WebsiteQuoteRequest	Submit the quote.html form with the same value in the Registration field as in Step 1.	No action.	This instance is the second time the WebsiteQuoteRequest event is received for the car registration used in Step 1. That is, the second request for a quotation for a car. Therefore, the details of the potential customer are not sent to the Marketing department again.
+3	PolicyPurchased	Use the Business Events Tester widget to send an instance of the PolicyPurchased event with a new value in the Registration field. Click the Send an Event tab, then click Select Event Template. Click the menu icon next to PolicySystem and select PolicyPurchased. Finally, click Send Event.	No action.	The arrival of an instance of the PolicyPurchased event only shows that a potential customer has purchased a policy. So there is no action required.
+4	WebsiteQuoteRequest	Submit the quote.html form with the same value in the Registration field as in Step 3.	No action.	This time, when an instance of the WebsiteQuoteRequest event is received for the same car registration as in Step 3, the existence of the PolicyPurchased event from Step 3 indicates that the customer has already bought a policy for this car. Therefore there is no reason to add them to the marketing campaign yet.
