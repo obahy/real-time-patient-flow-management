@@ -9,9 +9,12 @@
 
 2. The first time you start IBM Process Designer, it opens to the Process Center Console:
 
+   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/ProcessCenterConsole.png
+
 3. Open the application process that is assigned to you by the instructor, click the *Open in Designer* option for the process application that you want to access.
 
 4. The following image shows the Designer interface and each functional area:
+   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/DesignerInterface.png
 
    You can use the Designer interface to develop process models and their underlying implementations, such as services. The following table describes each numbered area in the preceding image of the Designer interface in Lombardi Authoring Environment:
 
