@@ -4,7 +4,7 @@ In this task, you will learn how to add business objects to you business process
 
 == Procedure ==
 
-1. In the Designer interface for the Clinical-Pathway process, Click on the *plus* sign in the *Data* at the left pane, and under Create New choose *Business Object*, as shown below:
+1. In the Designer interface for the Clinical-Pathway process, Click on the *plus* sign in the *Data* at the left pane, and under _Create New_ choose *Business Object*, as shown below:
 
    https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/businessObject.png
 
