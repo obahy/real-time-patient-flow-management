@@ -7,9 +7,15 @@ In this exercise, you add a second filter to the Add To Campaign interaction set
 Below are all of the steps required to complete this exercise
 
 [Exercise3part1]
+
 [Exercise3part2]
+
 [Exercise3part3]
+
 [Exercise3part4]
+
 [Exercise3part5]
+
 [Exercise3part6]
+
 [Exercise3part7]
