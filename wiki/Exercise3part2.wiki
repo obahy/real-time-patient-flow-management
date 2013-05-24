@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+
 Define the PolicyPurchased event:
 After a customer has requested a quotation for car insurance, if the customer purchases the insurance policy, an instance of the PolicyPurchased event is received by the policy system of the insurance company.
 
