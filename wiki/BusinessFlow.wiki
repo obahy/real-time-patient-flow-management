@@ -38,3 +38,13 @@
    You will use the palette on the right to model the clinical pathway, here is a description of the symbols you are going to use:
 
    https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/palette.png
+
+8. Now using the palette above,you can start modelling your business process. You should drag and drop the symbols from the palette to the *Diagram* page. 
+
+9. The *Lane* will represent a participant in the clinical pathway. In our example, we have the following participants: patient,  transport, nurse, and doctor. The system will be represented in a *Lane* also. When you create the process as a default the *System* lane will be created as well as one participant that contains a *Start* and an *End* event. Therefore, you can change the participant that you are already have to the *Patient*, to do so click on the lane and change the Name form _Participant_ to _Patient_ as follows:
+
+   https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/PatientLane.png
+
+  Now add the a Lane for each participant, as follows:
+
+    https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/Lanes.png
