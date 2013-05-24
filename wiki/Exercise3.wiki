@@ -1,13 +1,3 @@
-#summary One-sentence summary of this page.
+#Define events and filters
 
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+In this exercise, you define another event and add another filter so that the Add To Campaign interaction set can check whether a policy has already been purchased for the car. If so, then the customer is not unnecessarily added to marketing campaigns. As an application evolves, you might typically find that the project has to be updated by the IT user (using Design Data) occasionally before the business user can continue building the business logic in Design.
