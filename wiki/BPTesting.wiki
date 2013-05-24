@@ -12,6 +12,6 @@
 
    https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/runButton.png
 
-3. You should have the following result: 
+3. You should have the following result in your browser: 
 
    https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/result.png
