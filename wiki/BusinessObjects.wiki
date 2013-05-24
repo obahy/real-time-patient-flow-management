@@ -17,6 +17,6 @@ In this task, you will learn how to add business objects to you business process
 
 4. Add the other business objects the same way you added the patient object.
 
-   *NOTE:* Do not forget to save what you did. 
+*NOTE:* Do not forget to save what you did. 
 
 After creating the business objects now you have to create the interface on the form that the patient will fill when he/she arrives at the Checkin Activity.
