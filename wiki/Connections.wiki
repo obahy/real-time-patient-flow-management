@@ -1,7 +1,6 @@
-
 == Task 4.2: Define Connections ==
 
-Defining connections to the systems from which events are received and to which actions are sent by WebSphere Business Events
+Defining connections to the systems from which events are received and to which actions are sent by !WebSphere Business Events
 
 == Procedure ==
 
