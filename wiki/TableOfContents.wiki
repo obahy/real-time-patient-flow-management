@@ -25,7 +25,7 @@
       * [BusinessLogic Business logic]
       * [RealTimeRun Publish Project]
       * [Testing Test Project]
-      * [Exercise 3]
+      * [Exercise3]
     * [Part_V Session V: FM]
     * [Part_VI Session VI: Cognos]
     * [Part_VII Session VII: DEMO]
