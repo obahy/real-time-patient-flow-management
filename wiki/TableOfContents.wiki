@@ -4,6 +4,7 @@
     * [Part_I Session I: Business Process Management]
       * [IntroPFM Introduction to Patient Flow Management]
       * [IntroBPM Introduction to Business Process Management]
+      * [SoftwareInstallation Software Installation]
     * [Part_II Session II: Clinical Pathways as a Business Process]
       * [BusinessFlow Define Business Flow]
       * [Authentication Authentication]
