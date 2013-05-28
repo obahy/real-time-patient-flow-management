@@ -1,13 +1,7 @@
-#summary One-sentence summary of this page.
+#Complex Events Processing using IBM WebSphere Business Events
 
 = Introduction =
 
-Add your content here.
+In this session, you will be using IBM WebSPhere Business Events to collect events, process them, and specify destinations.
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Complex Events Processing, or CEP, refers to an approach and tools where fine grained events are collected, processed, and dispersed to various destinations.
