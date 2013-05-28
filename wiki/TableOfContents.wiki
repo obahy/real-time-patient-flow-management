@@ -29,7 +29,7 @@
       * [Exercise3]
     * [Part_V Session V: Framework Manager]
       * [Introduction Introduction to Framework Manager]
-      * [DB-Connection Define Data Sources]
+      * [DB_Connection Define Data Sources]
       * [StarSchema Create Star Schema]
       * [Publish Publish Packages to Cognos]
     * [Part_VI Session VI: Cognos]
