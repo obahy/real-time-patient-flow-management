@@ -1,6 +1,9 @@
-
 == Task 4.1: Create Events and Actions ==
-You define an event called _BPMRegistrationRequest_ to represent the registration request received from *BPM*, and an action called _!RegisterPatient_ which contains the information from the event that is required by the Hospital to register the patient.
+Events are the input for the CEP. Actions are the output. Typically, a CEP tool would receive events from multiple sources, and produces actions that are routed to possibly multiple destinations.
+
+In this exercise, you will define an event called _BPMRegistrationRequest_ to represent the registration request received from *BPM*, and an action called _!RegisterPatient_ which contains the information from the event that is required by the Hospital to register the patient.
+
+We will be using IBM WebSphere Business Events V7.0.1.
 
 
 == Procedure ==
