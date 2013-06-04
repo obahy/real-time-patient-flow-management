@@ -2,7 +2,24 @@
 
 = Introduction =
 
-Add your content here.
+Liam presents . Add link to PPT.
+
+SME can be accessed from: 137.122.93.228:8080/SME
+
+The test driver, or the message broaker: TBD.
+
+Cognos dashboards: http://137.122.93.90/ibmcognos/cgi-bin/cognos.cgi?b_action=xts.run&m=portal/welcome/welcome.xts
+
+
+go to IBM Cognos Content->SMEv2 Package->shirley
+All reports here are based off of sme 
+
+all test scripts are in dropBox.
+
+
+the data base is the same machine as cognos. (137.122.93.90).
+
+
 
 
 = Details =
