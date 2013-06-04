@@ -22,9 +22,6 @@ the data base is the same machine as cognos. (137.122.93.90).
 
 
 
-= Details =
+= Scenario =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Document a scenario in detailed steps.
