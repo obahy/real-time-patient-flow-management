@@ -65,6 +65,7 @@ This report shows the states of the patient and how long he has been waiting at 
 8. Go back to Sirely folder.
 
 9. You can open the following four reports:
+    
     1. Patients table
 This shows all the states and how long the patient has waited in each of those states.
 
