@@ -19,6 +19,8 @@ all test scripts are in dropBox.
 
 the data base is the same machine as cognos. (137.122.93.90).
 
+the testing console: http://137.122.88.139:8080/osler-mb/
+
 
 
 
