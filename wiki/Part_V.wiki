@@ -3,6 +3,9 @@
 
 = Simulation and testing of Events =
 
+An overview presentation is available here: https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/BMPSession5.pptx
+
+
 In this session, we will simulate the events that are taking place at the hospital using a test console. The simulation is useful to test the system without having to set up the location tags. We will also see how to view the real time dashboards that will show the patients that are currently in the hospital, where they are, and at what state of the clinical pathway they are in. There are also real time reports that shows how long each patient has been waiting at different states of the clinical pathway.
 
 For example, we will simulate a patient being triaged, patient enters ED, Physician enters ED, etc. We will show reports showing active patients currently in the hospital, and see how long patients have been waiting at different states of the clinical pathway.
