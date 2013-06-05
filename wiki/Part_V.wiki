@@ -20,6 +20,36 @@ Open response log console to verify that your events have been sent.
 Status code should be 200. Other codes correspond to unsuccessful handling of events.
 
 
+== Exercise 5.2 == 
+Open the SME Dashboard to view some basic dashboards.
+
+1. Using your browser, go to: 137.122.93.228:8080/SME
+2. Click on Unit map under Map of rooms and patients.
+3. You should see a list of patients. Select the patient that your test scripts have created.
+4. View patient state charts, Patient states, and the events received.
+
+
+== Exercise 5.3 ==
+We now will look at cognos dashboards that show more reports about the patients and their wait times and states.
+
+1. Open your browser and navigate to: http://137.122.93.90/ibmcognos/cgi-bin/cognos.cgi?b_action=xts.run&m=portal/welcome/welcome.xts
+
+2. Click on Home.
+3. Click on SME_V2_Package.
+4. Click on Shirely.
+5. Click on New.
+6. Click on ALl ActivePatients.
+
+This will show you a list of all patients active now. Some of the patients your scripts have created, others created by your colleagues, and maybe others are in the system from before.
+
+7. Open PatientDetailsBullet report, and select the ID of the patient you are interested in.
+
+This report shows the states of the patient and how long he has been waiting at that state. The report also shows relevant information such as the care provider ID, start and end time.
+
+8. Go back to Sirely folder.
+8. You can open the following four reports:
+    1. 
+
 
 Liam presents . Add link to PPT.
 
