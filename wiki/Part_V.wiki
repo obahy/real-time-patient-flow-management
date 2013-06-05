@@ -20,6 +20,7 @@ In this exercise, you will open the test console to send different events to the
 Notice that the time stamp is hard coded, so you do not have to wait between events. You can go ahead and send all events in the test scripts.
 
 Open response log console to verify that your events have been sent.
+
 1. Click home.
 
 2. Under log analytics click on Response Log.
