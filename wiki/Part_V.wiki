@@ -33,7 +33,7 @@ Status code should be 200. Other codes correspond to unsuccessful handling of ev
 == Exercise 5.2 Viewing the simple SME Dashboards == 
 Open the SME Dashboard to view some basic dashboards. These are some basic reports that displays some patients information and their wait times.
 
-1. Using your browser, go to: 137.122.93.228:8080/SME
+1. Using your browser, go to: www.137.122.93.228:8080/SME
 
 2. Click on *Unit Map* under Map of rooms and patients.
 
