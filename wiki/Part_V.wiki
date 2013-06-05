@@ -11,11 +11,11 @@ For example, we will simulate a patient being triaged, patient enters ED, Physic
 
 In this exercise, you will open the test console to send different events to the system.
 
-# Open your browser and go to: http://137.122.88.139:8080/osler-mb/
+1. Open your browser and go to: http://137.122.88.139:8080/osler-mb/
 
-# Browse to the shared directory on DropBox and open the corresponding student.xml file. This file contains the test script.
+2. Browse to the shared directory on DropBox and open the corresponding student.xml file. This file contains the test script.
 
-# Run the tests manually.
+3. Run the tests manually.
 
 Notice that the time stamp is hard coded, so you do not have to wait between events. You can go ahead and send all events in the test scripts.
 
