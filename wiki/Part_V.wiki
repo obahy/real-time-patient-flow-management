@@ -1,7 +1,9 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
 
+== Simulation of Events ==
+
+We will open a test console to simulate events taking place at the hospital. For example, we will simulate a patient being triaged, and the patient enters ED, and the Physician enters ED Etc.. 
 Liam presents . Add link to PPT.
 
 SME can be accessed from: 137.122.93.228:8080/SME
