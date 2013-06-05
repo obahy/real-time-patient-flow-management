@@ -62,8 +62,8 @@ You can explore other reports.
 
 == Other remarks ==
 
-* You must be connected to the university VPN to be able to perform the tasks in this exercise.
+- You must be connected to the university VPN to be able to perform the tasks in this exercise.
 
-* The SQL Database is located on this machine: (137.122.93.90).
+- The SQL Database is located on this machine: (137.122.93.90).
 
-* There are other test scripts that simulates a more complete clinical pathway. You can open them to view the complete steps. I recommend that you do not run the scripts as it will result in multiple patients being triaged with the same ID.
+- There are other test scripts that simulates a more complete clinical pathway. You can open them to view the complete steps. I recommend that you do not run the scripts as it will result in multiple patients being triaged with the same ID.
