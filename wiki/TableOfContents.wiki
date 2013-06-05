@@ -32,6 +32,7 @@
       * [DB_Connection Define Data Sources]
       * [StarSchema Create Star Schema]
       * [Publish Publish Packages to Cognos]
+      * [Powerpoint Powerpoint]
     * [Part_VI Session VI: Cognos]
       * [Introduction Introduction to Cognos]
       * [Components Key Cognos Components]
