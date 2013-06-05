@@ -10,15 +10,19 @@ For example, we will simulate a patient being triaged, patient enters ED, Physic
 
 In this exercise, you will open the test console to send different events to the system.
 
-# Open your browser and go to: http://137.122.88.139:8080/osler-mb/
-# Browse to the shared directory on DropBox and open the corresponding student.xml file. This file contains the test script.
-# Run the tests manually.
+1. Open your browser and go to: http://137.122.88.139:8080/osler-mb/
+
+2. Browse to the shared directory on DropBox and open the corresponding student.xml file. This file contains the test script.
+
+3. Run the tests manually.
 
 Notice that the time stamp is hard coded, so you do not have to wait between events. You can go ahead and send all events in the test scripts.
 
 Open response log console to verify that your events have been sent.
 1. Click home.
+
 2. Under log analytics click on Response Log.
+
 3. Make sure the events have been sent.
 
 Status code should be 200. Other codes correspond to unsuccessful handling of events.
@@ -28,8 +32,11 @@ Status code should be 200. Other codes correspond to unsuccessful handling of ev
 Open the SME Dashboard to view some basic dashboards. These are some basic reports that displays some patients information and their wait times.
 
 1. Using your browser, go to: 137.122.93.228:8080/SME
+
 2. Click on Unit map under Map of rooms and patients.
+
 3. You should see a list of patients. Select the patient that your test scripts have created.
+
 4. View patient state charts, Patient states, and the events received.
 
 
@@ -39,9 +46,13 @@ We now will look at Cognos dashboards that show more reports about the patients 
 1. Open your browser and navigate to: http://137.122.93.90/ibmcognos/cgi-bin/cognos.cgi?b_action=xts.run&m=portal/welcome/welcome.xts
 
 2. Click on Home.
+
 3. Click on SME_V2_Package.
+
 4. Click on Shirely.
+
 5. Click on New.
+
 6. Click on ALl ActivePatients.
 
 This will show you a list of all patients active now. Some of the patients your scripts have created, others created by your colleagues, and maybe others are in the system from before.
