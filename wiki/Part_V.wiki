@@ -47,32 +47,19 @@ This will show you a list of all patients active now. Some of the patients your 
 This report shows the states of the patient and how long he has been waiting at that state. The report also shows relevant information such as the care provider ID, start and end time.
 
 8. Go back to Sirely folder.
-8. You can open the following four reports:
-    1. 
+
+9. You can open the following four reports:
+    1. Patients table
+This shows all the states and how long the patient has waited in each of those states.
+
+    2. PatientByUnit
+This report shows the current state and whether they are exceeded the wait time limit, about to exceed, or within range. Green means within range, yellow means about to exceed, and red means exceeded.
+
+You can explore other reports.
 
 
-Liam presents . Add link to PPT.
+== Other remarks ==
 
-SME can be accessed from: 137.122.93.228:8080/SME
+* You must be connected to the university VPN to be able to perform the tasks in this exercise.
 
-The test driver, or the message broaker: TBD.
-
-Cognos dashboards: http://137.122.93.90/ibmcognos/cgi-bin/cognos.cgi?b_action=xts.run&m=portal/welcome/welcome.xts
-
-
-go to IBM Cognos Content->SMEv2 Package->shirley
-All reports here are based off of sme 
-
-all test scripts are in dropBox.
-
-
-the data base is the same machine as cognos. (137.122.93.90).
-
-the testing console: http://137.122.88.139:8080/osler-mb/
-
-
-
-
-= Scenario =
-
-Document a scenario in detailed steps.
+* The SQL Database is located on this machine: (137.122.93.90).
