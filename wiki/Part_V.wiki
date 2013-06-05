@@ -1,4 +1,5 @@
 #summary Simulation and testing of the patient flow monitoring system
+#labels Dataintegration,Testconsole,SME,Cognos,Reports
 
 = Simulation and testing of Events =
 
