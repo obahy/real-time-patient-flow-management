@@ -67,11 +67,9 @@ This report shows the states of the patient and how long he has been waiting at 
 
 9. You can open the following four reports:
     
-    1. Patients table
-This shows all the states and how long the patient has waited in each of those states.
+  a. Patients table: This shows all the states and how long the patient has waited in each of those states.
 
-    2. PatientByUnit
-This report shows the current state and whether they are exceeded the wait time limit, about to exceed, or within range. Green means within range, yellow means about to exceed, and red means exceeded.
+  b. PatientByUnit: This report shows the current state and whether they are exceeded the wait time limit, about to exceed, or within range. Green means within range, yellow means about to exceed, and red means exceeded.
 
 You can explore other reports.
 
