@@ -2,16 +2,19 @@
 
 = Simulation and testing of Events =
 
-In this session, we will simulate the events that are taking place at the hospital using a test console. The simulation is useful to test the system without having to set up the location tags.
+In this session, we will simulate the events that are taking place at the hospital using a test console. The simulation is useful to test the system without having to set up the location tags. We will also see how to view the real time dashboards that will show the patients that are currently in the hospital, where they are, and at what state of the clinical pathway they are in. There are also real time reports that shows how long each patient has been waiting at different states of the clinical pathway.
 
-For example, we will simulate a patient being triaged, patient enters ED, Physician enters ED, etc. 
+For example, we will simulate a patient being triaged, patient enters ED, Physician enters ED, etc. We will show reports showing active patients currently in the hospital, and see how long patients have been waiting at different states of the clinical pathway.
 
-== Exercise 5.1: Open the Test Console ==
+== Exercise 5.1: Accessing the Test Console ==
+
+In this exercise, you will open the test console to send different events to the system.
+
 1. Open your browser and go to: http://137.122.88.139:8080/osler-mb/
 2. Browse to the shared directory on DropBox and open the corresponding student.xml file. This file contains the test script.
 3. Run the tests manually.
 
-Notice that the time stamp is hard coded, so you do not have to wait between events.
+Notice that the time stamp is hard coded, so you do not have to wait between events. You can go ahead and send all events in the test scripts.
 
 Open response log console to verify that your events have been sent.
 1. Click home.
@@ -21,8 +24,8 @@ Open response log console to verify that your events have been sent.
 Status code should be 200. Other codes correspond to unsuccessful handling of events.
 
 
-== Exercise 5.2 == 
-Open the SME Dashboard to view some basic dashboards.
+== Exercise 5.2 Viewing the simple SME Dashboards == 
+Open the SME Dashboard to view some basic dashboards. These are some basic reports that displays some patients information and their wait times.
 
 1. Using your browser, go to: 137.122.93.228:8080/SME
 2. Click on Unit map under Map of rooms and patients.
@@ -30,8 +33,8 @@ Open the SME Dashboard to view some basic dashboards.
 4. View patient state charts, Patient states, and the events received.
 
 
-== Exercise 5.3 ==
-We now will look at cognos dashboards that show more reports about the patients and their wait times and states.
+== Exercise 5.3 View the advanced Cognos Dashboards ==
+We now will look at Cognos dashboards that show more reports about the patients and their wait times and states.
 
 1. Open your browser and navigate to: http://137.122.93.90/ibmcognos/cgi-bin/cognos.cgi?b_action=xts.run&m=portal/welcome/welcome.xts
 
