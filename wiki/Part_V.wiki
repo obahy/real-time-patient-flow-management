@@ -59,7 +59,7 @@ We now will look at Cognos dashboards that show more reports about the patients 
 
 This will show you a list of all patients active now. Some of the patients your scripts have created, others created by your colleagues, and maybe others are in the system from before.
 
-7. Open PatientDetailsBullet report, and select the ID of the patient you are interested in.
+7. Open *PatientDetailsBullet* report, and select the ID of the patient you are interested in.
 
 This report shows the states of the patient and how long he has been waiting at that state. The report also shows relevant information such as the care provider ID, start and end time.
 
@@ -67,9 +67,9 @@ This report shows the states of the patient and how long he has been waiting at 
 
 9. You can open the following four reports:
     
-  a. Patients table: This shows all the states and how long the patient has waited in each of those states.
+  a. *Patients table:* This shows all the states and how long the patient has waited in each of those states.
 
-  b. PatientByUnit: This report shows the current state and whether they are exceeded the wait time limit, about to exceed, or within range. Green means within range, yellow means about to exceed, and red means exceeded.
+  b. *PatientByUnit:* This report shows the current state and whether they are exceeded the wait time limit, about to exceed, or within range. Green means within range, yellow means about to exceed, and red means exceeded.
 
 You can explore other reports.
 
