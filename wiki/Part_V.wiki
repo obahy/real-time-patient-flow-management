@@ -21,9 +21,9 @@ Notice that the time stamp is hard coded, so you do not have to wait between eve
 
 Open response log console to verify that your events have been sent.
 
-1. Click home.
+1. Click *home*.
 
-2. Under log analytics click on Response Log.
+2. Under log analytics click on *Response Log*.
 
 3. Make sure the events have been sent.
 
@@ -35,7 +35,7 @@ Open the SME Dashboard to view some basic dashboards. These are some basic repor
 
 1. Using your browser, go to: 137.122.93.228:8080/SME
 
-2. Click on Unit map under Map of rooms and patients.
+2. Click on *Unit Map* under Map of rooms and patients.
 
 3. You should see a list of patients. Select the patient that your test scripts have created.
 
@@ -47,15 +47,15 @@ We now will look at Cognos dashboards that show more reports about the patients 
 
 1. Open your browser and navigate to: http://137.122.93.90/ibmcognos/cgi-bin/cognos.cgi?b_action=xts.run&m=portal/welcome/welcome.xts
 
-2. Click on Home.
+2. Click on *Home*.
 
-3. Click on SME_V2_Package.
+3. Click on *SME_V2_Package*.
 
-4. Click on Shirely.
+4. Click on *Shirely*.
 
-5. Click on New.
+5. Click on *New* folder.
 
-6. Click on ALl ActivePatients.
+6. Click on *ALl ActivePatients*.
 
 This will show you a list of all patients active now. Some of the patients your scripts have created, others created by your colleagues, and maybe others are in the system from before.
 
