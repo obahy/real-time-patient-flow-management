@@ -1,7 +1,10 @@
 #summary One-sentence summary of this page.
 
 = Step 1: Preparation =
-
+1-remote connect to university BPM server(137.122.93.132:9080) by using cmd and write the path:
+C:\IBM\BPM\v8.0\profiles\pro...\bin
+2-connect to designer 
+(you can find it from BPM server\ProcessCenter)
 Add your content here.
 
 
