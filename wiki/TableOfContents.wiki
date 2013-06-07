@@ -1,5 +1,7 @@
 #sidebar TableOfContents
 
+
+  * [Publications Publications]
   * [PFM_Course Patient Flow Management Course]
     * [Part_I Session I: Business Process Management]
       * [IntroPFM Introduction to Patient Flow Management]
