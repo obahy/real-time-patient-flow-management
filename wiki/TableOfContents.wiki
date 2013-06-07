@@ -42,3 +42,8 @@
     * [Part_VII Session VII: DEMO]
       * [Setup Demo Setup]
       * [Demo execution]
+  * [DemoSetup PFM Demo Setup]
+    * [HardwareSetup Hardware Setup]
+    * [BPM Setting up the BPM]
+    * [RTLS_SetUp eKahao Tags]
+    * [CEP Setting up the CEP]
