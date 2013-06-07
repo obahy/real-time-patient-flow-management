@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Add your content here.
+We will show how to go from the Database to Reports and dashboards.
 
 
 = Details =
