@@ -2,12 +2,22 @@
 
 = Introduction =
 
+== Exercise 6.1 : Overview of the database ==
 We will show how to go from the Database to Reports and dashboards.
+Remote connect to the url 137.122.93.90 using the lombardi password.
 
+Open the MS Sql Server Management Studio and open the pfmv4 database. In the Database Diagram folder, open dbo_diagram_0. In this diagram, there are the following tables:
+patient_event_fact
+patient_state_fact
 
-= Details =
+== Exercise 6.2 : Importing the db into framework manager ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== Exercise 6.3 : Creating source, logical and dimensional views ==
+
+== Exercise 6.4 : Identifying dimensions and facts == 
+
+== Exercise 6.5 : Identifying Hierarchies == 
+
+== Exercise 6.6 : Creating and deploying framework package == 
+
+== Exercise 6.7 : Creating reports in Cognos - Report Studio ==
