@@ -2,12 +2,18 @@
 
 = Refereed Papers =
 
-Papers and abstracts here.
+Aladdin's paper.
+Shirely's paper.
+
 
 
 = PhD and Master Theses =
 
-List Theses of PhD and masters' students.
+Aladdin's
+Renaud
+Shirely
+Sapideh
+..
 
 = Posters =
 
