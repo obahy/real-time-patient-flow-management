@@ -26,6 +26,9 @@ The next few images show a detailed description of how to configure the connecti
 [http://i.imgur.com/9P1ZNyS.png]
 [http://i.imgur.com/RnpNFxV.png]
 [http://i.imgur.com/hV9KhGq.png]
+Once you reach the step above, you have finished configuring the connection, and it is now available for IBM Configuration Manager.
+
+
 [http://i.imgur.com/aTqkfQm.png]
 [http://i.imgur.com/w0lDumf.png]
 [http://i.imgur.com/VPAoZ7o.png]
