@@ -19,6 +19,8 @@ This portal shows all of the current database connections that are available to 
 [http://i.imgur.com/KMiVpua.png]
 
 This page allows you to specify what the source data program is used. For example, if the database is a Microsoft Access database, the dropdown here will have Microsoft Access selected. In this case, we are using Microsoft SQL Server 2008. 
+
+The next few images show a detailed description of how to configure the connection to the SQL Server, and how to specify which database to connect to. The username and password is located in dropbox under Osler Project/Virtual Server List.xlsx->WAS-Cognos sheet
  
 [http://i.imgur.com/O6E5jTi.png]
 [http://i.imgur.com/9P1ZNyS.png]
