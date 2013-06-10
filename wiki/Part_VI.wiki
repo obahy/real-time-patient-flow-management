@@ -11,20 +11,20 @@ patient_event_fact
 patient_state_fact
 
 == Exercise 6.2 : Importing the db into framework manager ==
-http://imgur.com/s5zQo7y
-http://imgur.com/KMiVpua
-http://imgur.com/O6E5jTi
-http://imgur.com/9P1ZNyS
-http://imgur.com/RnpNFxV
-http://imgur.com/hV9KhGq
-http://imgur.com/aTqkfQm
-http://imgur.com/w0lDumf
-http://imgur.com/VPAoZ7o
-http://imgur.com/aIbcfec
-http://imgur.com/hrIxzuh
-http://imgur.com/OQ5Qum7
-http://imgur.com/F04Mqwq
-http://imgur.com/bgQo3Jz
+[http://imgur.com/s5zQo7y]
+[http://imgur.com/KMiVpua]
+[http://imgur.com/O6E5jTi]
+[http://imgur.com/9P1ZNyS]
+[http://imgur.com/RnpNFxV]
+[http://imgur.com/hV9KhGq]
+[http://imgur.com/aTqkfQm]
+[http://imgur.com/w0lDumf]
+[http://imgur.com/VPAoZ7o]
+[http://imgur.com/aIbcfec]
+[http://imgur.com/hrIxzuh]
+[http://imgur.com/OQ5Qum7]
+[http://imgur.com/F04Mqwq]
+[http://imgur.com/bgQo3Jz]
 
 == Exercise 6.3 : Creating source, logical and dimensional views ==
 
