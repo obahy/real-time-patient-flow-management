@@ -47,10 +47,25 @@ Once you reach the step above, you have finished configuring the connection, and
 Here, we will add the Data Source that was configured in the last couple steps. Follow the steps of the images below to create a project, and add the data connection to it. 
 
 [http://i.imgur.com/VPAoZ7o.png]
+
+This is the initial screen for creating a project. Give it a meaningful name, or the same name as your database, then hit OK.
+
 [http://i.imgur.com/aIbcfec.png]
+
+Select what data source to use. Since we just configured a data source using the IBM Admisistrator tab, this is the option we will use. 
+
 [http://i.imgur.com/hrIxzuh.png]
+
+This step automatically calls the IBM service and queries for the available data sources that have been configured. You should see your data source here near the bottom.
+
 [http://i.imgur.com/OQ5Qum7.png]
+
+The selected data source is queried further to get the schema. You can import all of the available database schema, or only selected parts of it if you wish. The most important of course is the tables. The bottom check box only applies if there are tables in your connection with the same name. 
+
 [http://i.imgur.com/F04Mqwq.png]
+
+Lastly, specify how the database will be queried. The default options here are fine. 
+
 [http://i.imgur.com/bgQo3Jz.png]
 
 Now you are done! You can proceed to Exercise 6.3 to add dimensions, fact calculations, and hierarchies.
