@@ -14,9 +14,12 @@ patient_state_fact
 Now, we must use this database, and configure IBM Cognos to connect to it. To do this, we must use the IBM Administration portal. This is located at the url http://137.122.93.90/ibmcognos . This url MUST be opened using Internet Explorer. Once the console shows up, click on the administration link. This will open up the status and health page of cognos for configuration. This is not important for us right now. Navigate to the "Configuration" tab as seen below. 
 [http://i.imgur.com/s5zQo7y.png]
 
-This portal shows all of the current database connections that are available to you in cognos. We must now create a new connection to allow us to connect to  our new database "TestDatabaseBPM"
+This portal shows all of the current database connections that are available to you in cognos. We must now create a new connection to allow us to connect to  our new database "TestDatabaseBPM". In the top left corner you will see a cylinder with a star beside it. This is the new data source button. Click it, and it will bring you to the next menu below: 
 
 [http://i.imgur.com/KMiVpua.png]
+
+This page allows you to specify what the source data program is used. For example, if the database is a Microsoft Access database, the dropdown here will have Microsoft Access selected. In this case, we are using Microsoft SQL Server 2008. 
+ 
 [http://i.imgur.com/O6E5jTi.png]
 [http://i.imgur.com/9P1ZNyS.png]
 [http://i.imgur.com/RnpNFxV.png]
