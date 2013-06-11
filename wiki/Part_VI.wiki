@@ -72,17 +72,22 @@ Now you are done! You can proceed to Exercise 6.3 to add dimensions, fact calcul
  
 == Exercise 6.3 : Creating source, logical and dimensional views ==
 
-In this section, we will modify our tables so that cognos can easily run calculations, OLAP cubes, and drill functions. This is done using logical and dimensional views, which allow the user to make slight modifications to the facts and dimensions without changing the source tables. The image below shows how to create the three view that are required to add these special functionalities.
-http://i.imgur.com/CVt6m5Q.png
+In this section, we will modify our tables so that Cognos can easily run calculations, OLAP cubes, and drill functions. 
+
+First, however, lets verify that Framework Manager has successful pulled the correct database from the Data Source by running a test. This can be done by double clicking one of the tables, and running the test in the test tab. An example is seen below.
+
+http://i.imgur.com/hcVfLoi.png
+
+This is done using logical and dimensional views, which allow the user to make slight modifications to the facts and dimensions without changing the source tables. The image below shows how to create the three view that are required to add these special functionality.
+
+http://i.imgur.com/mjNX9ic.png
 
 Once this step is completed, you should have a source view with all of the original tables in it (can be done with drag and drop), and two empty views for Logical and Dimensional tables.
 
 Next, we will copy all of the tables, and paste them into logical so we can start making some calculations. Calculations are useful for fact tables that have state data that can be calculated using other columns. This step will help Cognos get parsable information easily, as the values are precalculated before they are reported on. For example, if there is a column of monthly sales, a logical column could be calculated as weekly sales, which would be the monthly sales column divided by 4. Below is just some example syntax of a calculation on the test table.
 http://i.imgur.com/OowFKLl.png
 
-
-http://i.imgur.com/mjNX9ic.png
-http://i.imgur.com/hcVfLoi.png
+http://i.imgur.com/CVt6m5Q.png
 
 == Exercise 6.4 : Creating and deploying framework package == 
 
