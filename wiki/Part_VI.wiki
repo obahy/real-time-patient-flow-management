@@ -87,6 +87,9 @@ Once this step is completed, you should have a source view with all of the origi
 Next, we will copy all of the tables, and paste them into logical so we can start making some calculations. Calculations are useful for fact tables that have state data that can be calculated using other columns. This step will help Cognos get parsable information easily, as the values are precalculated before they are reported on. For example, if there is a column of monthly sales, a logical column could be calculated as weekly sales, which would be the monthly sales column divided by 4. Below is just some example syntax of a calculation on the test table.
 http://i.imgur.com/OowFKLl.png
 
+Lastly, we are going to flesh out our dimensional model. First, copy all of the tables from the logical view, and paste them in the dimensional view. Next, we will define each of the dimensional tables by right clicking them and clicking Merge in New Regular Dimension. 
+
+
 http://i.imgur.com/CVt6m5Q.png
 
 == Exercise 6.4 : Creating and deploying framework package == 
