@@ -97,11 +97,11 @@ Now you are done creating your framework manager package. All that is left is to
 == Exercise 6.4 : Creating and deploying framework package == 
 
 
-http://i.imgur.com/i7MHwl2.png
-http://i.imgur.com/C4uinBS.png
-http://i.imgur.com/TJiFzYy.png
-http://i.imgur.com/OrN1twc.png
 http://i.imgur.com/femiQ9b.png
+http://i.imgur.com/OrN1twc.png
+http://i.imgur.com/TJiFzYy.png
+http://i.imgur.com/C4uinBS.png
+http://i.imgur.com/i7MHwl2.png
 http://i.imgur.com/ODyGFNO.png
 
 == Exercise 6.5 : Creating reports in Cognos - Report Studio ==
