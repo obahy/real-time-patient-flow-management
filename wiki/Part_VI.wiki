@@ -89,9 +89,19 @@ http://i.imgur.com/OowFKLl.png
 
 Lastly, we are going to flesh out our dimensional model. First, copy all of the tables from the logical view, and paste them in the dimensional view. Next, we will define each of the dimensional tables by right clicking them and clicking Merge in New Regular Dimension. 
 
-
+Now, you have to define each level of the hierarchy. A hierarchy is defined by how many unique values are in each of the rows of the dimension. For example, an Address dimension would have many duplicates for country, but slightly less duplicate city rows. This means that the country column is higher up in the hierarchy. The very top of the hierarchy should be <Name of dim>(All), and the very bottom should be the unique identifier of each row. The image below shows a simple example of a dimensional hierarchy.
 http://i.imgur.com/CVt6m5Q.png
 
+Now you are done creating your framework manager package. All that is left is to deploy it to Cognos to start authoring reports.
+
 == Exercise 6.4 : Creating and deploying framework package == 
+
+
+http://i.imgur.com/ODyGFNO.png
+http://i.imgur.com/i7MHwl2.png
+http://i.imgur.com/C4uinBS.png
+http://i.imgur.com/TJiFzYy.png
+http://i.imgur.com/OrN1twc.png
+http://i.imgur.com/femiQ9b.png
 
 == Exercise 6.5 : Creating reports in Cognos - Report Studio ==
