@@ -119,3 +119,7 @@ http://i.imgur.com/ODyGFNO.png
 Now your package has been published! It will be available on the Cognos portal for report studio.
 
 == Exercise 6.5 : Creating reports in Cognos - Report Studio ==
+You must complete these steps on Internet Explorer.
+
+To access Cognos report studio, open the following link in IE:
+ 137.122.93.90/ibmcognos
