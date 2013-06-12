@@ -103,9 +103,19 @@ http://i.imgur.com/femiQ9b.png
 This will prompt you for a package name. Since the version number is built into the package, the name does not have to be unique for every time you create a package. Next, you are prompted to choose which views should be inserted into the package. In this case we want all of them as described below.
 
 http://i.imgur.com/OrN1twc.png
+
+The next couple steps are very straight forward, and the configuration only needs to be changed if including security, or to allow for static reports. The focus of this tutorial is just a general introduction however, so the intricacies are not important. 
+
 http://i.imgur.com/TJiFzYy.png
 http://i.imgur.com/C4uinBS.png
 http://i.imgur.com/i7MHwl2.png
+
+This last step is the most important, as this is the first time throughout the process that you are prompted to validate your configuration to make sure there are no inconsistencies or errors. Since there are many steps in the process, there is often something that goes wrong during the first attempts of validation. 
+
+The most complex step that requires much customization is the definition of the hierarchies. Often this is the source of the problem. For the first pass, it may be better to start with a very simple hierarchy just to try some preliminary reporting before getting into the detail of drilling and filtering. 
+
 http://i.imgur.com/ODyGFNO.png
+
+Now your package has been published! It will be available on the Cognos portal for report studio.
 
 == Exercise 6.5 : Creating reports in Cognos - Report Studio ==
