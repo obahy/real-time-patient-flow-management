@@ -96,8 +96,12 @@ Now you are done creating your framework manager package. All that is left is to
 
 == Exercise 6.4 : Creating and deploying framework package == 
 
+A framework package combines all views, calculations, and dimensions that have been configured, and versions them so they are available for cognos reporting. The version is important because certain reports may rely on a different configuration in framework manager, and updates could break the report. This way, different reports can work with different views of the database, and have a clear upgrading schedule. First, a package must be created as described in the step below.
 
 http://i.imgur.com/femiQ9b.png
+
+This will prompt you for a package name. Since the version number is built into the package, the name does not have to be unique for every time you create a package. Next, you are prompted to choose which views should be inserted into the package. In this case we want all of them as described below.
+
 http://i.imgur.com/OrN1twc.png
 http://i.imgur.com/TJiFzYy.png
 http://i.imgur.com/C4uinBS.png
