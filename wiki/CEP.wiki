@@ -8,9 +8,9 @@ Add your content here.
 = Details =
 STARTING UP BUSINESS EVENTS SERVERS
 
-1.	Remote Desktop into the Server IP 137.122.93.228 for school network. (For the standalone: 192.168.1.134) 
-◦	Enter log in credentials Username: Administrator, Password: Exam!23
-2.	Go to Start -> Programs -> IBM WebSphere Business Events Server v7.0.1 and click on “Business Space”
+      1.Remote Desktop into the Server IP 137.122.93.228 for school            network. (For the standalone: 192.168.1.134) 
+              ◦	Enter log in credentials Username: Administrator,   Password: Exam!23
+      2.Go to Start -> Programs -> IBM WebSphere Business Events Server v7.0.1 and click on “Business Space”
 3.	On the login pop-up screen enter the credentials Username: aladdin_baarah, Password:2611
 4.	Click on “Manage Spaces” tab and delete the existing projects space by clicking on “Actions” and Delete.
 5.	Create a new space, give it a name e.g. “Osler Demo”, “save” and click “Done”.
