@@ -1,7 +1,10 @@
-
 = Ekahau hardware setup = 
-* Beacons  
-1- place 6 beacons in 6 different locations. 
+* Beacons   
+
+
+1- place 6 beacons in 6 different locations.  
+
+
 
 * Access points 
 1- Place some access points in different locations and heights. 
