@@ -35,7 +35,7 @@ STARTING UP BUSINESS EVENTS SERVERS
      
        Note: (If you face with this Error:  Error 404: ProxyServlet: /mum/nullassets , you can close the project and comeback to step 8)
 
-   10. In the “Business Events Tester” Widget, Click on “Restart Testing” button
+10. In the “Business Events Tester” Widget, Click on “Restart Testing” button
 
  11.In the file system navigate to C:\OslerProject\TestCase1\InputEvents folder
       ◦Empty the folder if it contains any files
