@@ -12,7 +12,7 @@ Shirely's paper.
 
 *Aladdin's
 
-*Renaud Thesis: https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/RenaudBouguengTchemeube-MCS-thesis.pdf
+*Renaud Thesis: [Renaud  https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/RenaudBouguengTchemeube-MCS-thesis.pdf]
 
 *Shirely
 
