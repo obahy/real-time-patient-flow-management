@@ -2,6 +2,7 @@
 
 = Refereed Papers =
 
+
 Aladdin's paper.
 Shirely's paper.
 
@@ -9,10 +10,12 @@ Shirely's paper.
 
 = PhD and Master Theses =
 
-Aladdin's
-Renaud
-Shirely
-Sapideh
+*Aladdin's
+
+*Renaud Thesis: https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/RenaudBouguengTchemeube-MCS-thesis.pdf
+
+*Shirely
+*Sapideh
 ..
 
 = Posters =
