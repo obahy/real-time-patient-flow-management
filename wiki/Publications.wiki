@@ -17,7 +17,9 @@ Management for Real-time Monitoring of Patient Care Processes"
 
 https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/RenaudBouguengTchemeube-MCS-thesis.pdf
 
-*Shirely
+*Shirely Baffoe Thesis: "A Generic BI Application for RealTime Monitoring of Care Processes"
+
+https://real-time-patient-flow-management.googlecode.com/svn/trunk/images/Baffoe_Shirley_2013_thesis.pdf
 
 *Sapideh
 ..
