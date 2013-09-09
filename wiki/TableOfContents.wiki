@@ -47,4 +47,4 @@
     * [BPM Setting up the BPM]
     * [RTLS_SetUp eKahao Tags]
     * [CEP Setting up the CEP]
-  * [testConsole Test Console]
+  * [testConsole Testing the Patient Flow Monitoring System]
