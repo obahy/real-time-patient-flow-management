@@ -46,5 +46,5 @@
     * [HardwareSetup Hardware Setup]
     * [BPM Setting up the BPM]
     * [RTLS_SetUp eKahao Tags]
-    * [testConsole Test Console]
-  * [CEP Setting up the CEP]
+    * [CEP Setting up the CEP]
+  * [testConsole Test Console]
