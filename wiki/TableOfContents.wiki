@@ -48,3 +48,4 @@
     * [RTLS_SetUp eKahao Tags]
     * [CEP Setting up the CEP]
   * [testConsole Test Console]
+  * [ServerList Server List]
