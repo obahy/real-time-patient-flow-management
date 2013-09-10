@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+Simulating events using Test Console
 
 = Introduction =
 Test Console is , from which events from any source can be simulated.
