@@ -29,4 +29,38 @@ Ensure that the *Test Mode*  by default is set to *Manual - Allows you to contro
 
 [http://i.imgur.com/2uqLYhL.jpg]
 
-*Step4:*
+*Step4:* Click on *Run Test Script* option. 
+
+You will observe that all the events in the test script file are loaded on the "Send Test Events" console and are to be manually injected.
+
+[http://i.imgur.com/b1SEpKc.jpg]
+
+*Step5:* Inject some events manually. Click on *Send* button seen next to the events, to send simulated events manually from *Message Broker* to *CEP*
+
+[http://i.imgur.com/XWbRRXX.jpg]
+
+*Step5:* CEP will generate business events based on the detection of a certain event pattern and will be sent to MSG Broker. Verify that all business events are logged in the Incoming Log of the MSG Broker.
+
+ Navigate to http://137.122.88.139:8080/osler-mb/  and Select *Log Analytics* 
+
+[http://i.imgur.com/IyLoNbv.jpg]
+
+*Step7:* Compare the business events logged with the test case *ExtendedScenario_CEPEvents_testscript*. The test is passed if all the events in the test script are logged in the console.
+
+
+= To Check the Patient Details on PFM console =
+
+*Step1:* Navigate to http://osler.eecs.uottawa.ca/SME/
+
+[http://i.imgur.com/uVBD08p.jpg]
+
+*Step2:* Click on *Patient Details*
+
+[http://i.imgur.com/QAmebif.jpg]
+
+*Step3:* Select the patient/patientId (Say, pmallur9), which is included in the test script 
+
+[http://i.imgur.com/jQUNbG8.jpg]
+
+
+= DataBase Check =
