@@ -15,4 +15,7 @@ b. To ensure CEP generates proper business events.
 
 
 *How do we test CEP?*
+
+step1. Navigate to *Message Broker* console (  http://137.122.88.139:8080/osler-mb/ )
+
 [http://i.imgur.com/8Q2lac8.jpg]
