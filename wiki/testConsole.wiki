@@ -16,6 +16,17 @@ b. To ensure CEP generates proper business events.
 
 *How do we test CEP?*
 
-step1. Navigate to *Message Broker* console (  http://137.122.88.139:8080/osler-mb/ )
+*Step1:* Navigate to *Message Broker* console (  http://137.122.88.139:8080/osler-mb/ )
 
 [http://i.imgur.com/8Q2lac8.jpg]
+
+*Step2:* Click on *Inject Test Events*
+
+*Step3:* Click on *Choose File* to add the test script file and select the testscript file from  appropriate location.
+(say, C:\Users\kavya kumar\Dropbox\Osler Project\Phase 1\TestScripts\CEP Unit Tests\ExtendedScenario\Input)
+
+Ensure that the *Test Mode*  by default is set to *Manual - Allows you to control the timing of each event*
+
+[http://i.imgur.com/2uqLYhL.jpg]
+
+*Step4:*
