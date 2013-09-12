@@ -63,15 +63,15 @@ You will observe that all the events in the test script file are loaded on the "
 [http://i.imgur.com/jQUNbG8.jpg]
 
 
-= DataBase Check =
+= On the DB side =
 
 1) To access the DB, do a Remote Connection 
 
-System: *137.122.93.90*
+System:137.122.93.90
 
-UserName: lpeyton
+UserName:lpeyton
 
-Password: *********
+Password:xxxxxxxxx
 
 [http://i.imgur.com/d1Tqtnf.jpg]
 
@@ -88,4 +88,3 @@ Password: *********
 4) Check for the *patient_event_fact* table and ensure that the record is updated successfully.
 
 [http://i.imgur.com/R6qWUMV.jpg]
-
