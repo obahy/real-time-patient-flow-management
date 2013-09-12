@@ -7,8 +7,12 @@ Here, the test console is used to simulate events of any type from any source (i
 
 
 = Testing CEP =
-Why should we test CEP?
+*Why should we test CEP?*
+
+a. To ensure CEP receives simulated events from the Message Broker.
+
+b. To ensure CEP generates proper business events. 
 
 
-how do we test CEP?
+*How do we test CEP?*
 [http://i.imgur.com/8Q2lac8.jpg]
