@@ -8,4 +8,5 @@ Here, the test console is used to simulate events of any type from any source (i
 
 = Testing CEP =
 Why should we test CEP?
+how do we test CEP?
 [http://i.imgur.com/8Q2lac8.jpg]
