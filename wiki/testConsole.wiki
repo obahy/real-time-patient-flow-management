@@ -1,3 +1,4 @@
+#labels testconsole,PFM,testing
 Simulating events using Test Console
 
 = Introduction =
