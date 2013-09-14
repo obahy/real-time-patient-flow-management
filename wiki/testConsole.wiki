@@ -74,8 +74,9 @@ UserName:lpeyton
 
 Password:xxxxxxxxx
 
-[http://i.imgur.com/d1Tqtnf.jpg]
-[http://i.imgur.com/nhNYIeb.jpg]
+[http://i.imgur.com/xhDKVZk.jpg]
+
+[http://i.imgur.com/zs1UAjM.jpg]
 
 2) Open *PFMv4* DB from Microsoft Management Studio
 
