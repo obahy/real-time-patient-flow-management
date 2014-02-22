@@ -35,6 +35,7 @@ With successful login, you will see the existing projects/process Apps on the Pr
 
 In the IBPM PD interface there are the following major "views" only one of which is shown at a
 time:
+
 • Process Apps – Selection of available/existing Process Apps
 
 • Toolkits – Selection of available/existing Toolkits
