@@ -48,3 +48,13 @@ In the IBPM PD interface there are the following major "views" only one of which
 • Inspector – Debugging/monitoring a solution (usually in test)
 
 • Optimizer – Examining performance characteristics
+
+
+= Troubleshooting BPM =
+
+*Step1:* Open CMD in administrator mode 
+(Search cmd in start menu, right click, "run in administrator mode")
+
+*Step2:* Change directory (cd) to this folder *C:\IBM\BPM\v8.0\profiles\ProcCtr01\bin*
+
+*Step3:* Type *startServer.bat server1*
