@@ -33,8 +33,7 @@ admin/admin.
 
 With successful login, you will see the existing projects/process Apps on the Process Apps page. Note that the currently logged in user is shown in the title of the window.
 
-In the IBPM PD interface there are the following major "views" only one of which is shown at a
-time:
+In the IBPM PD interface there are the following major "views" only one of which is shown at a time:
 
 • Process Apps – Selection of available/existing Process Apps
 
