@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+= IBM BPM Process Designer =
 
 The IBM BPM Process Designer(PD) is the development time tooling used to
 design, model and build processes. It is implemented under the covers using the Open Source technology called Eclipse but has a very non-Eclipse like skin applied over it.
@@ -8,7 +8,7 @@ IBPM PD can be downloaded from the IBPM Process Center and installed on a user's
 
 At a high level IBPM PD allows us to describe business processes using the BPMN notation. The processes are "drawn" visually on the screen canvas and the technical skills needed to achieve this task are as low as can possibly be made.
 
-= Details =
+= How to install BPM Process Designer? =
 
 Following steps illustrate the installation of IBM BPM Process Designer.
 *Step1:* Run the batch file "installProcessDesigner_admin.bat" from the folder IBM Process Designer.
